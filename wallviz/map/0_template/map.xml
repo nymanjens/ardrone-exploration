@@ -1,0 +1,902 @@
+<map>
+<KeyFrame id="0" pose="0.0885916 0.983781 0.422738 1.77606 0.979597 -0.989862 ">
+    <Image file="KeyFrames/0.png" />
+</KeyFrame>
+<MapPoint id="1194" position="-0.0790014 -0.318314 0.000833296 ">
+    <SourceKF id="0"  level="0" x="302" y="227" />
+</MapPoint>
+<MapPoint id="1195" position="-0.110444 -0.261103 -0.00275018 ">
+    <SourceKF id="0"  level="0" x="308" y="207" />
+</MapPoint>
+<MapPoint id="1196" position="-0.105231 -0.271829 0.00297145 ">
+    <SourceKF id="0"  level="0" x="307" y="208" />
+</MapPoint>
+<MapPoint id="1197" position="-0.106053 -0.321209 -0.00455453 ">
+    <SourceKF id="0"  level="0" x="291" y="220" />
+</MapPoint>
+<MapPoint id="1198" position="-0.0729411 -0.334486 0.000572198 ">
+    <SourceKF id="0"  level="0" x="299" y="230" />
+</MapPoint>
+<MapPoint id="1199" position="-0.0781613 -0.336068 0.00411813 ">
+    <SourceKF id="0"  level="0" x="297" y="228" />
+</MapPoint>
+<MapPoint id="1200" position="-0.712715 0.297092 0.175973 ">
+    <SourceKF id="0"  level="0" x="276" y="60" />
+</MapPoint>
+<MapPoint id="1201" position="-0.725571 0.329923 0.171421 ">
+    <SourceKF id="0"  level="0" x="279" y="59" />
+</MapPoint>
+<MapPoint id="1202" position="-0.711095 0.284982 0.13573 ">
+    <SourceKF id="0"  level="0" x="275" y="69" />
+</MapPoint>
+<MapPoint id="1203" position="-0.595112 0.151798 0.0854316 ">
+    <SourceKF id="0"  level="0" x="274" y="90" />
+</MapPoint>
+<MapPoint id="1204" position="-0.586909 0.145546 0.0754004 ">
+    <SourceKF id="0"  level="0" x="275" y="93" />
+</MapPoint>
+<MapPoint id="1205" position="-0.501289 0.284377 -0.0281137 ">
+    <SourceKF id="0"  level="0" x="317" y="109" />
+</MapPoint>
+<MapPoint id="1206" position="-0.637922 0.128691 -0.022064 ">
+    <SourceKF id="0"  level="0" x="265" y="113" />
+</MapPoint>
+<MapPoint id="1207" position="-0.638777 0.144199 -0.0402376 ">
+    <SourceKF id="0"  level="0" x="268" y="115" />
+</MapPoint>
+<MapPoint id="1208" position="-0.630774 0.146222 -0.04361 ">
+    <SourceKF id="0"  level="0" x="270" y="116" />
+</MapPoint>
+<MapPoint id="1209" position="-0.532402 0.328664 -0.0732979 ">
+    <SourceKF id="0"  level="0" x="318" y="114" />
+</MapPoint>
+<MapPoint id="1210" position="-0.473631 0.244624 -0.0483654 ">
+    <SourceKF id="0"  level="0" x="317" y="117" />
+</MapPoint>
+<MapPoint id="1211" position="-0.451999 0.182577 -0.0395566 ">
+    <SourceKF id="0"  level="0" x="311" y="122" />
+</MapPoint>
+<MapPoint id="1212" position="-0.461706 0.238084 -0.0576141 ">
+    <SourceKF id="0"  level="0" x="318" y="120" />
+</MapPoint>
+<MapPoint id="1213" position="-0.600683 0.143112 -0.0705067 ">
+    <SourceKF id="0"  level="0" x="275" y="123" />
+</MapPoint>
+<MapPoint id="1214" position="-0.566698 0.138977 -0.0613655 ">
+    <SourceKF id="0"  level="0" x="280" y="123" />
+</MapPoint>
+<MapPoint id="1215" position="-0.565372 0.161101 -0.0671965 ">
+    <SourceKF id="0"  level="0" x="284" y="122" />
+</MapPoint>
+<MapPoint id="1216" position="-0.449306 0.192122 -0.0506468 ">
+    <SourceKF id="0"  level="0" x="313" y="123" />
+</MapPoint>
+<MapPoint id="1217" position="-0.574885 0.195928 -0.0846921 ">
+    <SourceKF id="0"  level="0" x="288" y="124" />
+</MapPoint>
+<MapPoint id="1218" position="-0.531236 0.144229 -0.0598574 ">
+    <SourceKF id="0"  level="0" x="288" y="125" />
+</MapPoint>
+<MapPoint id="1219" position="-0.447696 0.216948 -0.0663344 ">
+    <SourceKF id="0"  level="0" x="318" y="125" />
+</MapPoint>
+<MapPoint id="1220" position="-0.475585 0.10088 -0.0543306 ">
+    <SourceKF id="0"  level="0" x="291" y="131" />
+</MapPoint>
+<MapPoint id="1221" position="-0.503418 0.125543 -0.0729086 ">
+    <SourceKF id="0"  level="0" x="290" y="130" />
+</MapPoint>
+<MapPoint id="1222" position="-0.391868 0.101401 -0.0381803 ">
+    <SourceKF id="0"  level="0" x="310" y="133" />
+</MapPoint>
+<MapPoint id="1223" position="-0.372259 0.0848646 -0.0302713 ">
+    <SourceKF id="0"  level="0" x="312" y="134" />
+</MapPoint>
+<MapPoint id="1224" position="-0.482959 0.0668067 -0.0673765 ">
+    <SourceKF id="0"  level="0" x="284" y="136" />
+</MapPoint>
+<MapPoint id="1225" position="-0.42674 0.00916587 -0.052165 ">
+    <SourceKF id="0"  level="0" x="284" y="142" />
+</MapPoint>
+<MapPoint id="1226" position="-0.392802 0.0597607 -0.0624296 ">
+    <SourceKF id="0"  level="0" x="302" y="143" />
+</MapPoint>
+<MapPoint id="1227" position="-0.367612 -0.00366875 -0.0480939 ">
+    <SourceKF id="0"  level="0" x="295" y="148" />
+</MapPoint>
+<MapPoint id="1228" position="-0.510117 -0.0395776 -0.074049 ">
+    <SourceKF id="0"  level="0" x="258" y="144" />
+</MapPoint>
+<MapPoint id="1229" position="-0.382582 -0.00797195 -0.0540142 ">
+    <SourceKF id="0"  level="0" x="291" y="147" />
+</MapPoint>
+<MapPoint id="1230" position="-0.387901 0.0138454 -0.0646647 ">
+    <SourceKF id="0"  level="0" x="294" y="147" />
+</MapPoint>
+<MapPoint id="1231" position="-0.380303 -0.0285326 -0.0481535 ">
+    <SourceKF id="0"  level="0" x="287" y="148" />
+</MapPoint>
+<MapPoint id="1232" position="-0.414603 -0.0359899 -0.0612719 ">
+    <SourceKF id="0"  level="0" x="278" y="150" />
+</MapPoint>
+<MapPoint id="1233" position="-0.340669 0.00231193 -0.0600417 ">
+    <SourceKF id="0"  level="0" x="303" y="153" />
+</MapPoint>
+<MapPoint id="1234" position="-0.459763 -0.10294 -0.0651986 ">
+    <SourceKF id="0"  level="0" x="255" y="152" />
+</MapPoint>
+<MapPoint id="1235" position="-0.370531 -0.0921555 -0.0453686 ">
+    <SourceKF id="0"  level="0" x="275" y="156" />
+</MapPoint>
+<MapPoint id="1236" position="-0.321757 -0.072232 -0.042863 ">
+    <SourceKF id="0"  level="0" x="292" y="159" />
+</MapPoint>
+<MapPoint id="1237" position="-0.406171 -0.0940482 -0.0605378 ">
+    <SourceKF id="0"  level="0" x="267" y="157" />
+</MapPoint>
+<MapPoint id="1238" position="-0.353587 -0.0955087 -0.0458901 ">
+    <SourceKF id="0"  level="0" x="279" y="159" />
+</MapPoint>
+<MapPoint id="1239" position="-0.404949 -0.10819 -0.0659547 ">
+    <SourceKF id="0"  level="0" x="265" y="160" />
+</MapPoint>
+<MapPoint id="1240" position="-0.336047 -0.11698 -0.0480143 ">
+    <SourceKF id="0"  level="0" x="278" y="164" />
+</MapPoint>
+<MapPoint id="1241" position="-0.287318 -0.102169 -0.043756 ">
+    <SourceKF id="0"  level="0" x="294" y="167" />
+</MapPoint>
+<MapPoint id="1242" position="-0.260765 -0.124368 -0.0278818 ">
+    <SourceKF id="0"  level="0" x="296" y="167" />
+</MapPoint>
+<MapPoint id="1243" position="-0.359278 -0.145251 -0.054528 ">
+    <SourceKF id="0"  level="0" x="266" y="166" />
+</MapPoint>
+<MapPoint id="1244" position="-0.350876 -0.140736 -0.0608561 ">
+    <SourceKF id="0"  level="0" x="269" y="168" />
+</MapPoint>
+<MapPoint id="1245" position="-0.378728 -0.166399 -0.0594227 ">
+    <SourceKF id="0"  level="0" x="257" y="167" />
+</MapPoint>
+<MapPoint id="1246" position="-0.221029 -0.167121 -0.0200745 ">
+    <SourceKF id="0"  level="0" x="297" y="178" />
+</MapPoint>
+<MapPoint id="1247" position="-0.228446 -0.143205 -0.0361827 ">
+    <SourceKF id="0"  level="0" x="301" y="178" />
+</MapPoint>
+<MapPoint id="1248" position="-0.372331 -0.173875 -0.06651 ">
+    <SourceKF id="0"  level="0" x="257" y="170" />
+</MapPoint>
+<MapPoint id="1249" position="-0.389053 -0.199068 -0.0652421 ">
+    <SourceKF id="0"  level="0" x="248" y="170" />
+</MapPoint>
+<MapPoint id="1250" position="-0.325503 -0.216037 -0.0488449 ">
+    <SourceKF id="0"  level="0" x="257" y="177" />
+</MapPoint>
+<MapPoint id="1251" position="-0.180108 -0.207068 -0.00885513 ">
+    <SourceKF id="0"  level="0" x="299" y="187" />
+</MapPoint>
+<MapPoint id="1252" position="-0.151753 -0.221992 -0.0072469 ">
+    <SourceKF id="0"  level="0" x="305" y="193" />
+</MapPoint>
+<MapPoint id="1253" position="-0.294807 -0.246081 -0.0432272 ">
+    <SourceKF id="0"  level="0" x="257" y="184" />
+</MapPoint>
+<MapPoint id="1254" position="-0.246388 -0.237575 -0.0354565 ">
+    <SourceKF id="0"  level="0" x="271" y="189" />
+</MapPoint>
+<MapPoint id="1255" position="-0.22948 -0.246619 -0.0425042 ">
+    <SourceKF id="0"  level="0" x="274" y="195" />
+</MapPoint>
+<MapPoint id="1256" position="-0.277051 -0.279216 -0.0620918 ">
+    <SourceKF id="0"  level="0" x="253" y="196" />
+</MapPoint>
+<MapPoint id="1257" position="-0.183307 -0.287204 -0.0281799 ">
+    <SourceKF id="0"  level="0" x="276" y="204" />
+</MapPoint>
+<MapPoint id="1258" position="-0.274835 -0.319819 -0.0462217 ">
+    <SourceKF id="0"  level="0" x="242" y="198" />
+</MapPoint>
+<MapPoint id="1259" position="-0.2152 -0.314113 -0.0352988 ">
+    <SourceKF id="0"  level="0" x="258" y="206" />
+</MapPoint>
+<MapPoint id="1260" position="-0.219433 -0.337978 -0.0335963 ">
+    <SourceKF id="0"  level="0" x="250" y="208" />
+</MapPoint>
+<MapPoint id="1261" position="-0.219926 -0.34303 -0.0333243 ">
+    <SourceKF id="0"  level="0" x="248" y="209" />
+</MapPoint>
+<MapPoint id="1262" position="-0.216493 -0.360185 -0.0375167 ">
+    <SourceKF id="0"  level="0" x="244" y="214" />
+</MapPoint>
+<MapPoint id="1263" position="-0.219549 -0.364175 -0.0385322 ">
+    <SourceKF id="0"  level="0" x="242" y="214" />
+</MapPoint>
+<MapPoint id="1264" position="-0.235729 -0.389165 -0.0418799 ">
+    <SourceKF id="0"  level="0" x="231" y="216" />
+</MapPoint>
+<MapPoint id="1265" position="-0.233314 -0.402077 -0.0390139 ">
+    <SourceKF id="0"  level="0" x="227" y="218" />
+</MapPoint>
+<MapPoint id="1266" position="-0.152795 -0.391665 -0.0310434 ">
+    <SourceKF id="0"  level="0" x="253" y="231" />
+</MapPoint>
+<MapPoint id="1267" position="-0.20991 -0.423083 -0.0332397 ">
+    <SourceKF id="0"  level="0" x="226" y="225" />
+</MapPoint>
+<MapPoint id="1268" position="-0.204536 -0.421273 -0.0364107 ">
+    <SourceKF id="0"  level="0" x="228" y="227" />
+</MapPoint>
+<MapPoint id="1269" position="-0.149519 -0.416872 -0.0260602 ">
+    <SourceKF id="0"  level="0" x="245" y="236" />
+</MapPoint>
+<MapPoint id="1270" position="-0.153027 -0.426541 -0.0268622 ">
+    <SourceKF id="0"  level="0" x="240" y="237" />
+</MapPoint>
+<MapPoint id="1271" position="-0.176513 -0.444876 -0.0325602 ">
+    <SourceKF id="0"  level="0" x="228" y="236" />
+</MapPoint>
+<MapPoint id="1272" position="-0.169916 -0.447292 -0.0293433 ">
+    <SourceKF id="0"  level="0" x="229" y="237" />
+</MapPoint>
+<MapPoint id="1273" position="-0.168355 -0.451194 -0.0301208 ">
+    <SourceKF id="0"  level="0" x="228" y="239" />
+</MapPoint>
+<MapPoint id="1274" position="-0.71927 0.302413 0.169691 ">
+    <SourceKF id="0"  level="0" x="276" y="61" />
+</MapPoint>
+<MapPoint id="1275" position="-0.715008 0.29661 0.135889 ">
+    <SourceKF id="0"  level="0" x="277" y="68" />
+</MapPoint>
+<MapPoint id="1276" position="-0.608432 0.157016 0.0686567 ">
+    <SourceKF id="0"  level="0" x="273" y="93" />
+</MapPoint>
+<MapPoint id="1277" position="-0.627066 0.141879 -0.0413979 ">
+    <SourceKF id="0"  level="0" x="269" y="116" />
+</MapPoint>
+<MapPoint id="1278" position="-0.572243 0.137005 -0.04928 ">
+    <SourceKF id="0"  level="0" x="278" y="120" />
+</MapPoint>
+<MapPoint id="1279" position="-0.466931 0.0698649 -0.0551254 ">
+    <SourceKF id="0"  level="0" x="287" y="134" />
+</MapPoint>
+<MapPoint id="1280" position="-0.547847 0.0530934 -0.0764701 ">
+    <SourceKF id="0"  level="0" x="269" y="135" />
+</MapPoint>
+<MapPoint id="1281" position="-0.470008 0.0466454 -0.0566495 ">
+    <SourceKF id="0"  level="0" x="282" y="137" />
+</MapPoint>
+<MapPoint id="1282" position="-0.448151 0.0577755 -0.0710598 ">
+    <SourceKF id="0"  level="0" x="289" y="140" />
+</MapPoint>
+<MapPoint id="1283" position="-0.376671 -0.0116 -0.0490187 ">
+    <SourceKF id="0"  level="0" x="291" y="148" />
+</MapPoint>
+<MapPoint id="1284" position="-0.300108 -0.100909 -0.0255653 ">
+    <SourceKF id="0"  level="0" x="291" y="160" />
+</MapPoint>
+<MapPoint id="1285" position="-0.349223 -0.10737 -0.0497393 ">
+    <SourceKF id="0"  level="0" x="277" y="162" />
+</MapPoint>
+<MapPoint id="1286" position="-0.267999 -0.0864064 -0.0376616 ">
+    <SourceKF id="0"  level="0" x="303" y="166" />
+</MapPoint>
+<MapPoint id="1287" position="-0.273243 -0.117919 -0.0305126 ">
+    <SourceKF id="0"  level="0" x="294" y="167" />
+</MapPoint>
+<MapPoint id="1288" position="-0.284112 -0.0743223 -0.062566 ">
+    <SourceKF id="0"  level="0" x="302" y="168" />
+</MapPoint>
+<MapPoint id="1289" position="-0.379199 -0.175775 -0.065381 ">
+    <SourceKF id="0"  level="0" x="255" y="169" />
+</MapPoint>
+<MapPoint id="1290" position="-0.327331 -0.219423 -0.0512098 ">
+    <SourceKF id="0"  level="0" x="256" y="178" />
+</MapPoint>
+<MapPoint id="1291" position="-0.17486 -0.206826 -0.0124778 ">
+    <SourceKF id="0"  level="0" x="301" y="189" />
+</MapPoint>
+<MapPoint id="1292" position="-0.290103 -0.25632 -0.0375295 ">
+    <SourceKF id="0"  level="0" x="255" y="185" />
+</MapPoint>
+<MapPoint id="1293" position="-0.186746 -0.241281 -0.0201987 ">
+    <SourceKF id="0"  level="0" x="287" y="195" />
+</MapPoint>
+<MapPoint id="1294" position="-0.258509 -0.279513 -0.0454891 ">
+    <SourceKF id="0"  level="0" x="257" y="194" />
+</MapPoint>
+<MapPoint id="1295" position="-0.296244 -0.297111 -0.0509167 ">
+    <SourceKF id="0"  level="0" x="243" y="193" />
+</MapPoint>
+<MapPoint id="1296" position="-0.273239 -0.301522 -0.0439961 ">
+    <SourceKF id="0"  level="0" x="247" y="195" />
+</MapPoint>
+<MapPoint id="1297" position="-0.257546 -0.320363 -0.0482614 ">
+    <SourceKF id="0"  level="0" x="246" y="203" />
+</MapPoint>
+<MapPoint id="1298" position="-0.211695 -0.348632 -0.0305906 ">
+    <SourceKF id="0"  level="0" x="249" y="211" />
+</MapPoint>
+<MapPoint id="1299" position="-0.224723 -0.362532 -0.0414179 ">
+    <SourceKF id="0"  level="0" x="242" y="214" />
+</MapPoint>
+<MapPoint id="1300" position="-0.241393 -0.38561 -0.0439667 ">
+    <SourceKF id="0"  level="0" x="230" y="215" />
+</MapPoint>
+<MapPoint id="1301" position="-0.226633 -0.408648 -0.0380056 ">
+    <SourceKF id="0"  level="0" x="227" y="220" />
+</MapPoint>
+<MapPoint id="1302" position="-0.139404 -0.394841 -0.0211348 ">
+    <SourceKF id="0"  level="0" x="255" y="232" />
+</MapPoint>
+<MapPoint id="1303" position="-0.211835 -0.423214 -0.0344358 ">
+    <SourceKF id="0"  level="0" x="225" y="225" />
+</MapPoint>
+<MapPoint id="1304" position="-0.201422 -0.424985 -0.0328499 ">
+    <SourceKF id="0"  level="0" x="227" y="227" />
+</MapPoint>
+<MapPoint id="1305" position="-0.177156 -0.446315 -0.0308884 ">
+    <SourceKF id="0"  level="0" x="226" y="237" />
+</MapPoint>
+<MapPoint id="1306" position="-0.519315 0.213281 0.131784 ">
+    <SourceKF id="0"  level="0" x="300" y="77" />
+</MapPoint>
+<MapPoint id="1307" position="-0.501575 0.150199 0.0914217 ">
+    <SourceKF id="0"  level="0" x="293" y="91" />
+</MapPoint>
+<MapPoint id="1308" position="-0.565055 0.140278 0.0197426 ">
+    <SourceKF id="0"  level="0" x="279" y="106" />
+</MapPoint>
+<MapPoint id="1309" position="-0.452388 0.0860001 -0.0510213 ">
+    <SourceKF id="0"  level="0" x="293" y="132" />
+</MapPoint>
+<MapPoint id="1310" position="-0.266505 -0.274575 -0.0471929 ">
+    <SourceKF id="0"  level="0" x="256" y="194" />
+</MapPoint>
+<MapPoint id="1311" position="-0.727091 0.00804458 0.176439 ">
+    <SourceKF id="0"  level="0" x="225" y="76" />
+</MapPoint>
+<MapPoint id="1312" position="-0.75676 0.0511119 -0.0516376 ">
+    <SourceKF id="0"  level="0" x="235" y="117" />
+</MapPoint>
+<MapPoint id="1313" position="-0.684937 0.119199 -0.050745 ">
+    <SourceKF id="0"  level="0" x="257" y="116" />
+</MapPoint>
+<MapPoint id="1314" position="-0.678121 0.114171 -0.0560129 ">
+    <SourceKF id="0"  level="0" x="257" y="118" />
+</MapPoint>
+<MapPoint id="1315" position="-0.677451 0.100744 -0.0622845 ">
+    <SourceKF id="0"  level="0" x="255" y="120" />
+</MapPoint>
+<MapPoint id="1316" position="-0.712737 0.110072 -0.0780466 ">
+    <SourceKF id="0"  level="0" x="251" y="121" />
+</MapPoint>
+<MapPoint id="1317" position="-0.658454 0.0970252 -0.0966415 ">
+    <SourceKF id="0"  level="0" x="258" y="128" />
+</MapPoint>
+<MapPoint id="1318" position="-0.731337 0.0499018 -0.119594 ">
+    <SourceKF id="0"  level="0" x="240" y="132" />
+</MapPoint>
+<MapPoint id="1319" position="-0.694483 0.015649 -0.110973 ">
+    <SourceKF id="0"  level="0" x="239" y="134" />
+</MapPoint>
+<MapPoint id="1320" position="-0.643362 -0.0156064 -0.109033 ">
+    <SourceKF id="0"  level="0" x="241" y="140" />
+</MapPoint>
+<MapPoint id="1321" position="-0.51943 -0.194458 -0.0520557 ">
+    <SourceKF id="0"  level="0" x="224" y="154" />
+</MapPoint>
+<MapPoint id="1322" position="-0.51833 -0.190101 -0.0563216 ">
+    <SourceKF id="0"  level="0" x="226" y="155" />
+</MapPoint>
+<MapPoint id="1323" position="-0.54019 -0.127801 -0.0867538 ">
+    <SourceKF id="0"  level="0" x="236" y="153" />
+</MapPoint>
+<MapPoint id="1324" position="-0.509947 -0.136436 -0.079709 ">
+    <SourceKF id="0"  level="0" x="239" y="155" />
+</MapPoint>
+<MapPoint id="1325" position="-0.527896 -0.197543 -0.0767956 ">
+    <SourceKF id="0"  level="0" x="223" y="159" />
+</MapPoint>
+<MapPoint id="1326" position="-0.462913 -0.146726 -0.0731367 ">
+    <SourceKF id="0"  level="0" x="245" y="159" />
+</MapPoint>
+<MapPoint id="1327" position="-0.524019 -0.197131 -0.0860447 ">
+    <SourceKF id="0"  level="0" x="225" y="160" />
+</MapPoint>
+<MapPoint id="1328" position="-0.531115 -0.179723 -0.0966477 ">
+    <SourceKF id="0"  level="0" x="227" y="161" />
+</MapPoint>
+<MapPoint id="1329" position="-0.52038 -0.204127 -0.08927 ">
+    <SourceKF id="0"  level="0" x="223" y="163" />
+</MapPoint>
+<MapPoint id="1330" position="-0.446653 -0.198322 -0.0785144 ">
+    <SourceKF id="0"  level="0" x="237" y="168" />
+</MapPoint>
+<MapPoint id="1331" position="-0.445666 -0.212164 -0.0779387 ">
+    <SourceKF id="0"  level="0" x="234" y="169" />
+</MapPoint>
+<MapPoint id="1332" position="-0.424486 -0.222124 -0.0778864 ">
+    <SourceKF id="0"  level="0" x="236" y="173" />
+</MapPoint>
+<MapPoint id="1333" position="-0.315802 -0.319389 -0.0460109 ">
+    <SourceKF id="0"  level="0" x="233" y="191" />
+</MapPoint>
+<MapPoint id="1334" position="-0.329512 -0.319105 -0.0585477 ">
+    <SourceKF id="0"  level="0" x="230" y="193" />
+</MapPoint>
+<MapPoint id="1335" position="-0.304441 -0.340871 -0.0517388 ">
+    <SourceKF id="0"  level="0" x="229" y="198" />
+</MapPoint>
+<MapPoint id="1336" position="-0.290673 -0.346207 -0.0504415 ">
+    <SourceKF id="0"  level="0" x="231" y="201" />
+</MapPoint>
+<MapPoint id="1337" position="-0.305865 -0.37637 -0.0447114 ">
+    <SourceKF id="0"  level="0" x="219" y="201" />
+</MapPoint>
+<MapPoint id="1338" position="-0.0683889 -0.365322 0.00300528 ">
+    <SourceKF id="0"  level="0" x="290" y="238" />
+</MapPoint>
+<MapPoint id="1339" position="-0.718194 0.306422 0.173506 ">
+    <SourceKF id="0"  level="0" x="277" y="60" />
+</MapPoint>
+<MapPoint id="1340" position="-0.713598 0.289803 0.137224 ">
+    <SourceKF id="0"  level="0" x="276" y="68" />
+</MapPoint>
+<MapPoint id="1341" position="-0.725317 0.168142 0.0918423 ">
+    <SourceKF id="0"  level="0" x="255" y="84" />
+</MapPoint>
+<MapPoint id="1342" position="-0.726114 0.148166 0.0742259 ">
+    <SourceKF id="0"  level="0" x="252" y="89" />
+</MapPoint>
+<MapPoint id="1343" position="-0.757787 0.043968 -0.0536162 ">
+    <SourceKF id="0"  level="0" x="234" y="119" />
+</MapPoint>
+<MapPoint id="1344" position="-0.706954 0.0224888 -0.10616 ">
+    <SourceKF id="0"  level="0" x="239" y="133" />
+</MapPoint>
+<MapPoint id="1345" position="-0.677453 0.0141353 -0.131489 ">
+    <SourceKF id="0"  level="0" x="242" y="140" />
+</MapPoint>
+<MapPoint id="1346" position="-0.526392 -0.174293 -0.0587853 ">
+    <SourceKF id="0"  level="0" x="228" y="153" />
+</MapPoint>
+<MapPoint id="1347" position="-0.510892 -0.204095 -0.0804219 ">
+    <SourceKF id="0"  level="0" x="225" y="162" />
+</MapPoint>
+<MapPoint id="1348" position="-0.449017 -0.196667 -0.0790781 ">
+    <SourceKF id="0"  level="0" x="237" y="167" />
+</MapPoint>
+<MapPoint id="1349" position="-0.315929 -0.372373 -0.0533213 ">
+    <SourceKF id="0"  level="0" x="218" y="201" />
+</MapPoint>
+<MapPoint id="1350" position="-0.249748 -0.387073 -0.0346165 ">
+    <SourceKF id="0"  level="0" x="228" y="211" />
+</MapPoint>
+<MapPoint id="1351" position="-0.243568 -0.3833 -0.0442368 ">
+    <SourceKF id="0"  level="0" x="231" y="214" />
+</MapPoint>
+<MapPoint id="1352" position="-0.240808 -0.398085 -0.0477067 ">
+    <SourceKF id="0"  level="0" x="227" y="218" />
+</MapPoint>
+<MapPoint id="1353" position="-0.22451 -0.41286 -0.0389583 ">
+    <SourceKF id="0"  level="0" x="226" y="222" />
+</MapPoint>
+<MapPoint id="1354" position="-0.199054 -0.423198 -0.0305024 ">
+    <SourceKF id="0"  level="0" x="228" y="227" />
+</MapPoint>
+<MapPoint id="1355" position="-0.178544 -0.444154 -0.0326246 ">
+    <SourceKF id="0"  level="0" x="227" y="237" />
+</MapPoint>
+<MapPoint id="1356" position="-0.661875 0.0471149 0.0900219 ">
+    <SourceKF id="0"  level="0" x="244" y="93" />
+</MapPoint>
+<MapPoint id="1357" position="-0.504695 -0.0759462 -0.0808188 ">
+    <SourceKF id="0"  level="0" x="252" y="149" />
+</MapPoint>
+<MapPoint id="1358" position="-0.16295 -0.198248 -0.0136612 ">
+    <SourceKF id="0"  level="0" x="308" y="189" />
+</MapPoint>
+<MapPoint id="1359" position="-0.243581 -0.400617 -0.050588 ">
+    <SourceKF id="0"  level="0" x="226" y="219" />
+</MapPoint>
+<MapPoint id="1360" position="-0.508303 -0.256706 0.216461 ">
+    <SourceKF id="0"  level="0" x="201" y="92" />
+</MapPoint>
+<MapPoint id="1361" position="-0.50833 -0.282429 -0.0869204 ">
+    <SourceKF id="0"  level="0" x="208" y="172" />
+</MapPoint>
+<MapPoint id="1362" position="-0.414814 0.0794495 0.110964 ">
+    <SourceKF id="0"  level="0" x="298" y="96" />
+</MapPoint>
+<MapPoint id="1363" position="-0.553058 0.194398 0.0416869 ">
+    <SourceKF id="0"  level="0" x="291" y="97" />
+</MapPoint>
+<MapPoint id="1364" position="-0.6853 0.129509 0.111506 ">
+    <SourceKF id="0"  level="0" x="255" y="83" />
+</MapPoint>
+<MapPoint id="1365" position="-0.622977 0.122369 0.0325738 ">
+    <SourceKF id="0"  level="0" x="265" y="102" />
+</MapPoint>
+<MapPoint id="1366" position="-0.717181 0.0860214 -0.0511808 ">
+    <SourceKF id="0"  level="0" x="246" y="117" />
+</MapPoint>
+<MapPoint id="1367" position="-0.59075 0.0180713 -0.140925 ">
+    <SourceKF id="0"  level="0" x="256" y="147" />
+</MapPoint>
+<MapPoint id="1368" position="-0.777924 0.517448 0.311775 ">
+    <SourceKF id="0"  level="0" x="297" y="22" />
+</MapPoint>
+<MapPoint id="1369" position="-0.768611 0.463642 0.372477 ">
+    <SourceKF id="0"  level="0" x="289" y="10" />
+</MapPoint>
+<MapPoint id="1370" position="-0.791762 0.47199 0.388698 ">
+    <SourceKF id="0"  level="0" x="287" y="8" />
+</MapPoint>
+<MapPoint id="1371" position="-0.784003 0.483999 0.342599 ">
+    <SourceKF id="0"  level="0" x="290" y="17" />
+</MapPoint>
+<MapPoint id="1372" position="-0.780103 0.514391 0.287309 ">
+    <SourceKF id="0"  level="0" x="296" y="26" />
+</MapPoint>
+<MapPoint id="1373" position="-0.782772 0.420563 0.419589 ">
+    <SourceKF id="0"  level="0" x="280" y="3" />
+</MapPoint>
+<MapPoint id="1374" position="-0.765105 0.447748 0.352458 ">
+    <SourceKF id="0"  level="0" x="288" y="16" />
+</MapPoint>
+<MapPoint id="1375" position="-0.786862 0.510729 0.279732 ">
+    <SourceKF id="0"  level="0" x="295" y="28" />
+</MapPoint>
+<MapPoint id="1376" position="-0.785117 0.447994 0.370447 ">
+    <SourceKF id="0"  level="0" x="284" y="13" />
+</MapPoint>
+<MapPoint id="1377" position="-0.774963 0.453902 0.331527 ">
+    <SourceKF id="0"  level="0" x="288" y="20" />
+</MapPoint>
+<MapPoint id="1378" position="-0.759425 0.441386 0.319392 ">
+    <SourceKF id="0"  level="0" x="289" y="23" />
+</MapPoint>
+<MapPoint id="1379" position="-0.791336 0.412403 0.402825 ">
+    <SourceKF id="0"  level="0" x="278" y="7" />
+</MapPoint>
+<MapPoint id="1380" position="-0.816516 0.453811 0.378253 ">
+    <SourceKF id="0"  level="0" x="280" y="11" />
+</MapPoint>
+<MapPoint id="1381" position="-0.778091 0.358176 0.417929 ">
+    <SourceKF id="0"  level="0" x="271" y="6" />
+</MapPoint>
+<MapPoint id="1382" position="-0.781918 0.395716 0.352067 ">
+    <SourceKF id="0"  level="0" x="277" y="18" />
+</MapPoint>
+<MapPoint id="1383" position="-0.805136 0.373459 0.406006 ">
+    <SourceKF id="0"  level="0" x="269" y="8" />
+</MapPoint>
+<MapPoint id="1384" position="-0.80932 0.423297 0.32098 ">
+    <SourceKF id="0"  level="0" x="277" y="24" />
+</MapPoint>
+<MapPoint id="1385" position="-0.52824 0.281575 0.120616 ">
+    <SourceKF id="0"  level="0" x="310" y="74" />
+</MapPoint>
+<MapPoint id="1386" position="-0.784231 0.380099 0.287382 ">
+    <SourceKF id="0"  level="0" x="276" y="33" />
+</MapPoint>
+<MapPoint id="1387" position="-0.562338 0.285718 0.101899 ">
+    <SourceKF id="0"  level="0" x="303" y="78" />
+</MapPoint>
+<MapPoint id="1388" position="-0.712421 0.126482 0.0232645 ">
+    <SourceKF id="0"  level="0" x="252" y="101" />
+</MapPoint>
+<MapPoint id="1389" position="-0.157438 -0.182722 -0.00454518 ">
+    <SourceKF id="0"  level="0" x="314" y="186" />
+</MapPoint>
+<MapPoint id="1390" position="-0.175638 -0.187792 -0.0334514 ">
+    <SourceKF id="0"  level="0" x="306" y="191" />
+</MapPoint>
+<MapPoint id="1391" position="-0.123156 -0.253063 -0.0122835 ">
+    <SourceKF id="0"  level="0" x="306" y="206" />
+</MapPoint>
+<MapPoint id="1392" position="-0.51199 -0.0867714 -0.0923335 ">
+    <SourceKF id="0"  level="0" x="249" y="152" />
+</MapPoint>
+<MapPoint id="1393" position="-0.113317 -0.267965 -0.00455626 ">
+    <SourceKF id="0"  level="0" x="305" y="210" />
+</MapPoint>
+<MapPoint id="1394" position="-0.110817 -0.275918 -0.00411492 ">
+    <SourceKF id="0"  level="0" x="303" y="212" />
+</MapPoint>
+<MapPoint id="1395" position="-0.0818815 -0.29731 0.000392762 ">
+    <SourceKF id="0"  level="0" x="308" y="222" />
+</MapPoint>
+<MapPoint id="1396" position="-0.701006 -0.0612626 -0.105057 ">
+    <SourceKF id="0"  level="0" x="225" y="138" />
+</MapPoint>
+<MapPoint id="1397" position="-0.729814 -0.06278 -0.115547 ">
+    <SourceKF id="0"  level="0" x="221" y="139" />
+</MapPoint>
+<MapPoint id="1398" position="-0.0909268 -0.303419 -0.0056303 ">
+    <SourceKF id="0"  level="0" x="302" y="223" />
+</MapPoint>
+<MapPoint id="1399" position="-0.0682871 -0.321726 -0.000633083 ">
+    <SourceKF id="0"  level="0" x="305" y="231" />
+</MapPoint>
+<MapPoint id="1400" position="-0.080461 -0.318944 -0.00241759 ">
+    <SourceKF id="0"  level="0" x="301" y="228" />
+</MapPoint>
+<MapPoint id="1401" position="-0.101966 -0.316613 -0.0066391 ">
+    <SourceKF id="0"  level="0" x="294" y="223" />
+</MapPoint>
+<MapPoint id="1402" position="-0.531248 -0.195165 -0.0193745 ">
+    <SourceKF id="0"  level="0" x="221" y="145" />
+</MapPoint>
+<MapPoint id="1403" position="-0.952982 -0.0849847 -0.0025203 ">
+    <SourceKF id="0"  level="0" x="189" y="109" />
+</MapPoint>
+<MapPoint id="1404" position="-0.0982501 -0.323592 -0.0027498 ">
+    <SourceKF id="0"  level="0" x="293" y="222" />
+</MapPoint>
+<MapPoint id="1405" position="-0.0873971 -0.326355 -0.00479785 ">
+    <SourceKF id="0"  level="0" x="296" y="228" />
+</MapPoint>
+<MapPoint id="1406" position="-0.086299 -0.333214 -0.0106091 ">
+    <SourceKF id="0"  level="0" x="294" y="232" />
+</MapPoint>
+<MapPoint id="1407" position="-0.0817516 -0.338658 -0.00657389 ">
+    <SourceKF id="0"  level="0" x="294" y="233" />
+</MapPoint>
+<MapPoint id="1408" position="-0.0808633 -0.339817 -0.00977517 ">
+    <SourceKF id="0"  level="0" x="294" y="235" />
+</MapPoint>
+<MapPoint id="1409" position="-0.392318 -0.258673 -0.071719 ">
+    <SourceKF id="0"  level="0" x="233" y="180" />
+</MapPoint>
+<MapPoint id="1410" position="-0.761744 -0.189495 -0.122535 ">
+    <SourceKF id="0"  level="0" x="195" y="148" />
+</MapPoint>
+<MapPoint id="1411" position="-0.42401 -0.269147 -0.0861437 ">
+    <SourceKF id="0"  level="0" x="225" y="180" />
+</MapPoint>
+<MapPoint id="1412" position="-0.756234 -0.197913 -0.131219 ">
+    <SourceKF id="0"  level="0" x="195" y="151" />
+</MapPoint>
+<MapPoint id="1413" position="-0.424409 -0.289102 -0.0797019 ">
+    <SourceKF id="0"  level="0" x="220" y="181" />
+</MapPoint>
+<MapPoint id="1414" position="-0.815049 0.497312 0.374289 ">
+    <SourceKF id="0"  level="0" x="287" y="11" />
+</MapPoint>
+<MapPoint id="1415" position="-0.79126 0.514315 0.287239 ">
+    <SourceKF id="0"  level="0" x="294" y="27" />
+</MapPoint>
+<MapPoint id="1416" position="-0.790082 0.455222 0.370157 ">
+    <SourceKF id="0"  level="0" x="285" y="12" />
+</MapPoint>
+<MapPoint id="1417" position="-0.754756 0.372716 0.395618 ">
+    <SourceKF id="0"  level="0" x="278" y="10" />
+</MapPoint>
+<MapPoint id="1418" position="-0.76463 0.378697 0.334618 ">
+    <SourceKF id="0"  level="0" x="278" y="23" />
+</MapPoint>
+<MapPoint id="1419" position="-0.493194 0.247481 0.135592 ">
+    <SourceKF id="0"  level="0" x="311" y="74" />
+</MapPoint>
+<MapPoint id="1420" position="-0.778125 0.376637 0.311423 ">
+    <SourceKF id="0"  level="0" x="276" y="27" />
+</MapPoint>
+<MapPoint id="1421" position="-0.776842 0.377621 0.286164 ">
+    <SourceKF id="0"  level="0" x="277" y="33" />
+</MapPoint>
+<MapPoint id="1422" position="-0.448311 0.173001 -0.0355067 ">
+    <SourceKF id="0"  level="0" x="310" y="121" />
+</MapPoint>
+<MapPoint id="1423" position="-0.801206 0.0469012 0.156963 ">
+    <SourceKF id="0"  level="0" x="223" y="76" />
+</MapPoint>
+<MapPoint id="1424" position="-1.80264 0.46076 0.131983 ">
+    <SourceKF id="0"  level="0" x="191" y="55" />
+</MapPoint>
+<MapPoint id="1425" position="-0.109156 -0.267001 -0.00243791 ">
+    <SourceKF id="0"  level="0" x="307" y="210" />
+</MapPoint>
+<MapPoint id="1426" position="-0.788836 -0.104732 0.160345 ">
+    <SourceKF id="0"  level="0" x="197" y="85" />
+</MapPoint>
+<MapPoint id="1427" position="-0.755155 -0.15237 0.176673 ">
+    <SourceKF id="0"  level="0" x="191" y="85" />
+</MapPoint>
+<MapPoint id="1428" position="-0.791233 -0.125074 0.0779119 ">
+    <SourceKF id="0"  level="0" x="196" y="103" />
+</MapPoint>
+<MapPoint id="1429" position="-0.799016 -0.138991 0.117445 ">
+    <SourceKF id="0"  level="0" x="191" y="96" />
+</MapPoint>
+<MapPoint id="1430" position="-0.543904 -0.192429 0.0215337 ">
+    <SourceKF id="0"  level="0" x="218" y="134" />
+</MapPoint>
+<MapPoint id="1431" position="-0.0789369 -0.325053 -0.0102969 ">
+    <SourceKF id="0"  level="0" x="300" y="231" />
+</MapPoint>
+<MapPoint id="1432" position="-0.14055 -0.320239 -0.0144851 ">
+    <SourceKF id="0"  level="0" x="279" y="215" />
+</MapPoint>
+<MapPoint id="1433" position="-0.773513 -0.20271 0.144689 ">
+    <SourceKF id="0"  level="0" x="181" y="95" />
+</MapPoint>
+<MapPoint id="1434" position="-0.76643 -0.213827 0.156415 ">
+    <SourceKF id="0"  level="0" x="179" y="94" />
+</MapPoint>
+<MapPoint id="1435" position="-0.769937 -0.228974 0.172514 ">
+    <SourceKF id="0"  level="0" x="175" y="91" />
+</MapPoint>
+<MapPoint id="1436" position="-0.224719 -0.316308 -0.0414854 ">
+    <SourceKF id="0"  level="0" x="255" y="206" />
+</MapPoint>
+<MapPoint id="1437" position="-0.810739 0.53215 0.30287 ">
+    <SourceKF id="0"  level="0" x="293" y="23" />
+</MapPoint>
+<MapPoint id="1438" position="-0.819841 0.489585 0.288995 ">
+    <SourceKF id="0"  level="0" x="286" y="27" />
+</MapPoint>
+<MapPoint id="1439" position="-0.710111 0.337021 0.297201 ">
+    <SourceKF id="0"  level="0" x="281" y="32" />
+</MapPoint>
+<MapPoint id="1440" position="-0.747163 -0.123095 0.157172 ">
+    <SourceKF id="0"  level="0" x="199" y="88" />
+</MapPoint>
+<MapPoint id="1441" position="-0.764832 -0.109978 0.0630451 ">
+    <SourceKF id="0"  level="0" x="203" y="106" />
+</MapPoint>
+<MapPoint id="1442" position="-0.838732 -0.118712 0.167217 ">
+    <SourceKF id="0"  level="0" x="189" y="84" />
+</MapPoint>
+<MapPoint id="1443" position="-0.552178 -0.185251 0.0422081 ">
+    <SourceKF id="0"  level="0" x="218" y="128" />
+</MapPoint>
+<MapPoint id="1444" position="-0.0774944 -0.327221 -0.00430805 ">
+    <SourceKF id="0"  level="0" x="300" y="231" />
+</MapPoint>
+<MapPoint id="1445" position="-0.122856 -0.237358 -0.00254432 ">
+    <SourceKF id="0"  level="0" x="311" y="201" />
+</MapPoint>
+<MapPoint id="1446" position="-0.0707355 -0.331086 0.011817 ">
+    <SourceKF id="0"  level="0" x="301" y="226" />
+</MapPoint>
+<MapPoint id="1447" position="-0.192317 -0.124739 0.0424917 ">
+    <SourceKF id="0"  level="0" x="316" y="157" />
+</MapPoint>
+<MapPoint id="1448" position="-0.139053 -0.240912 0.0214788 ">
+    <SourceKF id="0"  level="0" x="303" y="189" />
+</MapPoint>
+<MapPoint id="1449" position="-0.155305 -0.272102 0.0455297 ">
+    <SourceKF id="0"  level="0" x="287" y="183" />
+</MapPoint>
+<MapPoint id="1450" position="-0.15362 -0.226885 0.0172716 ">
+    <SourceKF id="0"  level="0" x="302" y="185" />
+</MapPoint>
+<MapPoint id="1451" position="-0.157706 -0.202489 0.00370684 ">
+    <SourceKF id="0"  level="0" x="308" y="185" />
+</MapPoint>
+<MapPoint id="1452" position="-0.155046 -0.204695 0.00195178 ">
+    <SourceKF id="0"  level="0" x="308" y="186" />
+</MapPoint>
+<MapPoint id="1453" position="-0.143923 -0.236345 -0.00848596 ">
+    <SourceKF id="0"  level="0" x="303" y="197" />
+</MapPoint>
+<MapPoint id="1454" position="-0.0740405 -0.345943 0.0206422 ">
+    <SourceKF id="0"  level="0" x="295" y="225" />
+</MapPoint>
+<MapPoint id="1455" position="-0.0782718 -0.359411 0.0130735 ">
+    <SourceKF id="0"  level="0" x="288" y="230" />
+</MapPoint>
+<MapPoint id="1456" position="-0.079346 -0.269851 0.0158474 ">
+    <SourceKF id="0"  level="0" x="318" y="210" />
+</MapPoint>
+<MapPoint id="1457" position="-0.0898532 -0.280747 0.0110396 ">
+    <SourceKF id="0"  level="0" x="310" y="211" />
+</MapPoint>
+<MapPoint id="1458" position="-0.358077 0.0658476 -0.0220819 ">
+    <SourceKF id="0"  level="0" x="311" y="135" />
+</MapPoint>
+<MapPoint id="1459" position="-0.154608 -0.200938 -0.00295011 ">
+    <SourceKF id="0"  level="0" x="310" y="188" />
+</MapPoint>
+<MapPoint id="1460" position="-0.641076 0.428072 0.174654 ">
+    <SourceKF id="0"  level="0" x="310" y="53" />
+</MapPoint>
+<MapPoint id="1461" position="-0.425993 0.17388 0.169903 ">
+    <SourceKF id="0"  level="0" x="314" y="73" />
+</MapPoint>
+<MapPoint id="1462" position="-0.405145 -0.0862501 0.0268056 ">
+    <SourceKF id="0"  level="0" x="267" y="134" />
+</MapPoint>
+<MapPoint id="1463" position="-0.664205 0.0458241 -0.145068 ">
+    <SourceKF id="0"  level="0" x="250" y="140" />
+</MapPoint>
+<MapPoint id="1464" position="-0.408697 -0.11881 0.0247649 ">
+    <SourceKF id="0"  level="0" x="259" y="137" />
+</MapPoint>
+<MapPoint id="1465" position="-0.404118 -0.155413 0.035129 ">
+    <SourceKF id="0"  level="0" x="252" y="138" />
+</MapPoint>
+<MapPoint id="1466" position="-0.425391 -0.160142 0.0200705 ">
+    <SourceKF id="0"  level="0" x="247" y="141" />
+</MapPoint>
+<MapPoint id="1467" position="-0.475367 -0.073374 0.0259732 ">
+    <SourceKF id="0"  level="0" x="256" y="127" />
+</MapPoint>
+<MapPoint id="1468" position="-0.400972 0.157072 -0.00280936 ">
+    <SourceKF id="0"  level="0" x="318" y="118" />
+</MapPoint>
+<MapPoint id="1469" position="-0.555826 0.311772 0.0729117 ">
+    <SourceKF id="0"  level="0" x="309" y="83" />
+</MapPoint>
+<MapPoint id="1470" position="-0.764601 0.393258 0.291664 ">
+    <SourceKF id="0"  level="0" x="281" y="31" />
+</MapPoint>
+<MapPoint id="1471" position="-0.569562 0.21059 0.0792337 ">
+    <SourceKF id="0"  level="0" x="290" y="87" />
+</MapPoint>
+<MapPoint id="1472" position="-0.545981 -0.258995 0.028085 ">
+    <SourceKF id="0"  level="0" x="203" y="139" />
+</MapPoint>
+<MapPoint id="1473" position="-0.442895 -0.354576 -0.0824171 ">
+    <SourceKF id="0"  level="0" x="201" y="187" />
+</MapPoint>
+<MapPoint id="1474" position="-0.728209 0.120924 -0.0289862 ">
+    <SourceKF id="0"  level="0" x="250" y="110" />
+</MapPoint>
+<MapPoint id="1475" position="-0.602405 0.120022 -0.0692026 ">
+    <SourceKF id="0"  level="0" x="271" y="125" />
+</MapPoint>
+<MapPoint id="1476" position="-0.450531 -0.451748 0.112016 ">
+    <SourceKF id="0"  level="0" x="163" y="147" />
+</MapPoint>
+<MapPoint id="1477" position="-0.353356 -0.116091 -0.0502456 ">
+    <SourceKF id="0"  level="0" x="274" y="162" />
+</MapPoint>
+<MapPoint id="1478" position="-0.5642 -0.362059 0.051224 ">
+    <SourceKF id="0"  level="0" x="175" y="142" />
+</MapPoint>
+<MapPoint id="1479" position="-0.265056 -0.461741 0.143197 ">
+    <SourceKF id="0"  level="0" x="189" y="162" />
+</MapPoint>
+<MapPoint id="1480" position="-0.527035 -0.141695 -0.0944699 ">
+    <SourceKF id="0"  level="0" x="236" y="158" />
+</MapPoint>
+<MapPoint id="1481" position="-0.294264 -0.16516 -0.0347377 ">
+    <SourceKF id="0"  level="0" x="277" y="171" />
+</MapPoint>
+<MapPoint id="1482" position="-0.515852 -0.267492 -0.0349803 ">
+    <SourceKF id="0"  level="0" x="208" y="158" />
+</MapPoint>
+<MapPoint id="1483" position="-0.452665 -0.193485 -0.0835785 ">
+    <SourceKF id="0"  level="0" x="237" y="168" />
+</MapPoint>
+<MapPoint id="1484" position="-0.474569 -0.31132 -0.0897346 ">
+    <SourceKF id="0"  level="0" x="207" y="179" />
+</MapPoint>
+<MapPoint id="1485" position="-0.493973 0.290022 0.126519 ">
+    <SourceKF id="0"  level="0" x="319" y="73" />
+</MapPoint>
+<MapPoint id="1486" position="-0.276842 -0.0896172 -0.029928 ">
+    <SourceKF id="0"  level="0" x="300" y="162" />
+</MapPoint>
+<MapPoint id="1487" position="-0.653196 -0.243058 -0.105097 ">
+    <SourceKF id="0"  level="0" x="198" y="157" />
+</MapPoint>
+<MapPoint id="1488" position="-0.430541 -0.354202 -0.0138986 ">
+    <SourceKF id="0"  level="0" x="200" y="170" />
+</MapPoint>
+<MapPoint id="1489" position="-0.582423 0.273699 0.118911 ">
+    <SourceKF id="0"  level="0" x="297" y="74" />
+</MapPoint>
+<MapPoint id="1490" position="-0.453186 0.120351 0.325925 ">
+    <SourceKF id="0"  level="0" x="294" y="34" />
+</MapPoint>
+<MapPoint id="1491" position="-0.289891 -0.00807402 -0.00902165 ">
+    <SourceKF id="0"  level="0" x="314" y="145" />
+</MapPoint>
+<MapPoint id="1492" position="-0.452479 0.147775 0.387736 ">
+    <SourceKF id="0"  level="0" x="299" y="13" />
+</MapPoint>
+</map>

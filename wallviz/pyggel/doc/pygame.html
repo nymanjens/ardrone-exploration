@@ -1,0 +1,1173 @@
+
+<!doctype html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: package pygame</title>
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pygame</strong></big></big> (version 1.9.0release-svn2555)</font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:///C|/python25/lib/site-packages/pygame/__init__.py">c:\python25\lib\site-packages\pygame\__init__.py</a></font></td></tr></table>
+    <p><tt>Pygame&nbsp;is&nbsp;a&nbsp;set&nbsp;of&nbsp;Python&nbsp;modules&nbsp;designed&nbsp;for&nbsp;writing&nbsp;games.<br>
+It&nbsp;is&nbsp;written&nbsp;on&nbsp;top&nbsp;of&nbsp;the&nbsp;excellent&nbsp;SDL&nbsp;library.&nbsp;This&nbsp;allows&nbsp;you<br>
+to&nbsp;create&nbsp;fully&nbsp;featured&nbsp;games&nbsp;and&nbsp;multimedia&nbsp;programs&nbsp;in&nbsp;the&nbsp;python<br>
+language.&nbsp;The&nbsp;package&nbsp;is&nbsp;highly&nbsp;portable,&nbsp;with&nbsp;games&nbsp;running&nbsp;on<br>
+Windows,&nbsp;MacOS,&nbsp;OS&nbsp;X,&nbsp;BeOS,&nbsp;FreeBSD,&nbsp;IRIX,&nbsp;and&nbsp;Linux.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Package Contents</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="pygame._arraysurfarray.html">_arraysurfarray</a><br>
+<a href="pygame._camera.html">_camera</a><br>
+<a href="pygame._camera_opencv_highgui.html">_camera_opencv_highgui</a><br>
+<a href="pygame._camera_vidcapture.html">_camera_vidcapture</a><br>
+<a href="pygame._numericsndarray.html">_numericsndarray</a><br>
+<a href="pygame._numericsurfarray.html">_numericsurfarray</a><br>
+<a href="pygame._numpysndarray.html">_numpysndarray</a><br>
+<a href="pygame._numpysurfarray.html">_numpysurfarray</a><br>
+<a href="pygame.base.html">base</a><br>
+<a href="pygame.bufferproxy.html">bufferproxy</a><br>
+<a href="pygame.camera.html">camera</a><br>
+<a href="pygame.cdrom.html">cdrom</a><br>
+<a href="pygame.color.html">color</a><br>
+<a href="pygame.colordict.html">colordict</a><br>
+<a href="pygame.compat.html">compat</a><br>
+</td><td width="25%" valign=top><a href="pygame.constants.html">constants</a><br>
+<a href="pygame.cursors.html">cursors</a><br>
+<a href="pygame.display.html">display</a><br>
+<a href="pygame.docs.html"><strong>docs</strong>&nbsp;(package)</a><br>
+<a href="pygame.draw.html">draw</a><br>
+<a href="pygame.event.html">event</a><br>
+<a href="pygame.examples.html"><strong>examples</strong>&nbsp;(package)</a><br>
+<a href="pygame.fastevent.html">fastevent</a><br>
+<a href="pygame.font.html">font</a><br>
+<a href="pygame.gfxdraw.html">gfxdraw</a><br>
+<a href="pygame.gp2x.html"><strong>gp2x</strong>&nbsp;(package)</a><br>
+<a href="pygame.image.html">image</a><br>
+<a href="pygame.imageext.html">imageext</a><br>
+<a href="pygame.joystick.html">joystick</a><br>
+<a href="pygame.key.html">key</a><br>
+</td><td width="25%" valign=top><a href="pygame.locals.html">locals</a><br>
+<a href="pygame.mac_scrap.html">mac_scrap</a><br>
+<a href="pygame.macosx.html">macosx</a><br>
+<a href="pygame.mask.html">mask</a><br>
+<a href="pygame.midi.html">midi</a><br>
+<a href="pygame.mixer.html">mixer</a><br>
+<a href="pygame.mixer_music.html">mixer_music</a><br>
+<a href="pygame.mouse.html">mouse</a><br>
+<a href="pygame.movie.html">movie</a><br>
+<a href="pygame.overlay.html">overlay</a><br>
+<a href="pygame.pixelarray.html">pixelarray</a><br>
+<a href="pygame.pkgdata.html">pkgdata</a><br>
+<a href="pygame.pypm.html">pypm</a><br>
+<a href="pygame.rect.html">rect</a><br>
+<a href="pygame.rwobject.html">rwobject</a><br>
+</td><td width="25%" valign=top><a href="pygame.scrap.html">scrap</a><br>
+<a href="pygame.sndarray.html">sndarray</a><br>
+<a href="pygame.sprite.html">sprite</a><br>
+<a href="pygame.surface.html">surface</a><br>
+<a href="pygame.surfarray.html">surfarray</a><br>
+<a href="pygame.surflock.html">surflock</a><br>
+<a href="pygame.sysfont.html">sysfont</a><br>
+<a href="pygame.tests.html"><strong>tests</strong>&nbsp;(package)</a><br>
+<a href="pygame.threads.html"><strong>threads</strong>&nbsp;(package)</a><br>
+<a href="pygame.time.html">time</a><br>
+<a href="pygame.transform.html">transform</a><br>
+<a href="pygame.version.html">version</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="__builtin__.html#object">__builtin__.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pygame.html#Color">Color</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pygame.html#PixelArray">PixelArray</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pygame.html#Rect">Rect</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pygame.html#Surface">Surface</a>
+</font></dt><dt><font face="helvetica, arial"><a href="pygame.html#Surface">Surface</a>
+</font></dt><dt><font face="helvetica, arial">overlay
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="exceptions.html#RuntimeError">exceptions.RuntimeError</a>(<a href="exceptions.html#StandardError">exceptions.StandardError</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pygame.html#error">error</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Color">class <strong>Color</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#Color">Color</a>(name):&nbsp;Return&nbsp;<a href="#Color">Color</a><br>
+pygame.<a href="#Color">Color</a>(r,&nbsp;g,&nbsp;b,&nbsp;a):&nbsp;Return&nbsp;<a href="#Color">Color</a><br>
+pygame.<a href="#Color">Color</a>(rgbvalue):&nbsp;Return&nbsp;<a href="#Color">Color</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;color&nbsp;representations<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Color-__add__"><strong>__add__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__add__">__add__</a>(y)&nbsp;&lt;==&gt;&nbsp;x+y</tt></dd></dl>
+
+<dl><dt><a name="Color-__coerce__"><strong>__coerce__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__coerce__">__coerce__</a>(y)&nbsp;&lt;==&gt;&nbsp;coerce(x,&nbsp;y)</tt></dd></dl>
+
+<dl><dt><a name="Color-__delitem__"><strong>__delitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__delitem__">__delitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;del&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="Color-__div__"><strong>__div__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__div__">__div__</a>(y)&nbsp;&lt;==&gt;&nbsp;x/y</tt></dd></dl>
+
+<dl><dt><a name="Color-__eq__"><strong>__eq__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__eq__">__eq__</a>(y)&nbsp;&lt;==&gt;&nbsp;x==y</tt></dd></dl>
+
+<dl><dt><a name="Color-__float__"><strong>__float__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__float__">__float__</a>()&nbsp;&lt;==&gt;&nbsp;float(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__floordiv__"><strong>__floordiv__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__floordiv__">__floordiv__</a>(y)&nbsp;&lt;==&gt;&nbsp;x//y</tt></dd></dl>
+
+<dl><dt><a name="Color-__ge__"><strong>__ge__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__ge__">__ge__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&gt;=y</tt></dd></dl>
+
+<dl><dt><a name="Color-__getitem__"><strong>__getitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__getitem__">__getitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="Color-__getslice__"><strong>__getslice__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__getslice__">__getslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="Color-__gt__"><strong>__gt__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__gt__">__gt__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&gt;y</tt></dd></dl>
+
+<dl><dt><a name="Color-__hex__"><strong>__hex__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__hex__">__hex__</a>()&nbsp;&lt;==&gt;&nbsp;hex(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__index__"><strong>__index__</strong></a>(...)</dt><dd><tt>x[y:z]&nbsp;&lt;==&gt;&nbsp;x[y.<a href="#Color-__index__">__index__</a>():z.<a href="#Color-__index__">__index__</a>()]</tt></dd></dl>
+
+<dl><dt><a name="Color-__int__"><strong>__int__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__int__">__int__</a>()&nbsp;&lt;==&gt;&nbsp;int(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__invert__"><strong>__invert__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__invert__">__invert__</a>()&nbsp;&lt;==&gt;&nbsp;~x</tt></dd></dl>
+
+<dl><dt><a name="Color-__le__"><strong>__le__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__le__">__le__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&lt;=y</tt></dd></dl>
+
+<dl><dt><a name="Color-__len__"><strong>__len__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__len__">__len__</a>()&nbsp;&lt;==&gt;&nbsp;len(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__long__"><strong>__long__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__long__">__long__</a>()&nbsp;&lt;==&gt;&nbsp;long(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__lt__"><strong>__lt__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__lt__">__lt__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&lt;y</tt></dd></dl>
+
+<dl><dt><a name="Color-__mod__"><strong>__mod__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__mod__">__mod__</a>(y)&nbsp;&lt;==&gt;&nbsp;x%y</tt></dd></dl>
+
+<dl><dt><a name="Color-__mul__"><strong>__mul__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__mul__">__mul__</a>(y)&nbsp;&lt;==&gt;&nbsp;x*y</tt></dd></dl>
+
+<dl><dt><a name="Color-__ne__"><strong>__ne__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__ne__">__ne__</a>(y)&nbsp;&lt;==&gt;&nbsp;x!=y</tt></dd></dl>
+
+<dl><dt><a name="Color-__oct__"><strong>__oct__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__oct__">__oct__</a>()&nbsp;&lt;==&gt;&nbsp;oct(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__radd__"><strong>__radd__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__radd__">__radd__</a>(y)&nbsp;&lt;==&gt;&nbsp;y+x</tt></dd></dl>
+
+<dl><dt><a name="Color-__rdiv__"><strong>__rdiv__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__rdiv__">__rdiv__</a>(y)&nbsp;&lt;==&gt;&nbsp;y/x</tt></dd></dl>
+
+<dl><dt><a name="Color-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="Color-__rfloordiv__"><strong>__rfloordiv__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__rfloordiv__">__rfloordiv__</a>(y)&nbsp;&lt;==&gt;&nbsp;y//x</tt></dd></dl>
+
+<dl><dt><a name="Color-__rmod__"><strong>__rmod__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__rmod__">__rmod__</a>(y)&nbsp;&lt;==&gt;&nbsp;y%x</tt></dd></dl>
+
+<dl><dt><a name="Color-__rmul__"><strong>__rmul__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__rmul__">__rmul__</a>(y)&nbsp;&lt;==&gt;&nbsp;y*x</tt></dd></dl>
+
+<dl><dt><a name="Color-__rsub__"><strong>__rsub__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__rsub__">__rsub__</a>(y)&nbsp;&lt;==&gt;&nbsp;y-x</tt></dd></dl>
+
+<dl><dt><a name="Color-__setitem__"><strong>__setitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__setitem__">__setitem__</a>(i,&nbsp;y)&nbsp;&lt;==&gt;&nbsp;x[i]=y</tt></dd></dl>
+
+<dl><dt><a name="Color-__sub__"><strong>__sub__</strong></a>(...)</dt><dd><tt>x.<a href="#Color-__sub__">__sub__</a>(y)&nbsp;&lt;==&gt;&nbsp;x-y</tt></dd></dl>
+
+<dl><dt><a name="Color-correct_gamma"><strong>correct_gamma</strong></a>(...)</dt><dd><tt><a href="#Color">Color</a>.correct_gamma&nbsp;(gamma):&nbsp;Return&nbsp;<a href="#Color">Color</a><br>
+Applies&nbsp;a&nbsp;certain&nbsp;gamma&nbsp;value&nbsp;to&nbsp;the&nbsp;<a href="#Color">Color</a>.</tt></dd></dl>
+
+<dl><dt><a name="Color-normalize"><strong>normalize</strong></a>(...)</dt><dd><tt><a href="#Color">Color</a>.<a href="#Color-normalize">normalize</a>():&nbsp;Return&nbsp;tuple<br>
+Returns&nbsp;the&nbsp;normalized&nbsp;RGBA&nbsp;values&nbsp;of&nbsp;the&nbsp;<a href="#Color">Color</a>.</tt></dd></dl>
+
+<dl><dt><a name="Color-set_length"><strong>set_length</strong></a>(...)</dt><dd><tt><a href="#Color">Color</a>.<a href="#Color-set_length">set_length</a>(len)<br>
+Set&nbsp;the&nbsp;number&nbsp;of&nbsp;elements&nbsp;in&nbsp;the&nbsp;<a href="#Color">Color</a>&nbsp;to&nbsp;1,2,3,&nbsp;or&nbsp;4.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>a</strong></dt>
+<dd><tt>Color.a:&nbsp;Return&nbsp;int<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;alpha&nbsp;value&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>b</strong></dt>
+<dd><tt>Color.b:&nbsp;Return&nbsp;int<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;blue&nbsp;value&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>cmy</strong></dt>
+<dd><tt>Color.cmy:&nbsp;Return&nbsp;tuple<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;CMY&nbsp;representation&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>g</strong></dt>
+<dd><tt>Color.g:&nbsp;Return&nbsp;int<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;green&nbsp;value&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>hsla</strong></dt>
+<dd><tt>Color.hsla:&nbsp;Return&nbsp;tuple<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;HSLA&nbsp;representation&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>hsva</strong></dt>
+<dd><tt>Color.hsva:&nbsp;Return&nbsp;tuple<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;HSVA&nbsp;representation&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>i1i2i3</strong></dt>
+<dd><tt>Color.i1i2i3:&nbsp;Return&nbsp;tuple<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;I1I2I3&nbsp;representation&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<dl><dt><strong>r</strong></dt>
+<dd><tt>Color.r:&nbsp;Return&nbsp;int<br>
+Gets&nbsp;or&nbsp;sets&nbsp;the&nbsp;red&nbsp;value&nbsp;of&nbsp;the&nbsp;Color.</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x01136620&gt;<dd><tt>T.<a href="#Color-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>Overlay</strong> = <a name="Overlay">class overlay</a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#Overlay">Overlay</a>(format,&nbsp;(width,&nbsp;height)):&nbsp;return&nbsp;<a href="#Overlay">Overlay</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;video&nbsp;overlay&nbsp;graphics<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="overlay-display"><strong>display</strong></a>(...)</dt><dd><tt><a href="#Overlay">Overlay</a>.<a href="#Overlay-display">display</a>((y,&nbsp;u,&nbsp;v)):&nbsp;return&nbsp;None<br>
+<a href="#Overlay">Overlay</a>.<a href="#Overlay-display">display</a>():&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;overlay&nbsp;pixel&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="overlay-get_hardware"><strong>get_hardware</strong></a>(...)</dt><dd><tt><a href="#Overlay">Overlay</a>.<a href="#Overlay-get_hardware">get_hardware</a>(rect):&nbsp;return&nbsp;int<br>
+test&nbsp;if&nbsp;the&nbsp;<a href="#Overlay">Overlay</a>&nbsp;is&nbsp;hardware&nbsp;accelerated</tt></dd></dl>
+
+<dl><dt><a name="overlay-set_location"><strong>set_location</strong></a>(...)</dt><dd><tt><a href="#Overlay">Overlay</a>.<a href="#Overlay-set_location">set_location</a>(rect):&nbsp;return&nbsp;None<br>
+control&nbsp;where&nbsp;the&nbsp;overlay&nbsp;is&nbsp;displayed</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x016632A0&gt;<dd><tt>T.<a href="#Overlay-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="PixelArray">class <strong>PixelArray</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#PixelArray">PixelArray</a>(<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#PixelArray">PixelArray</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;direct&nbsp;pixel&nbsp;access&nbsp;of&nbsp;surfaces<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="PixelArray-__contains__"><strong>__contains__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__contains__">__contains__</a>(y)&nbsp;&lt;==&gt;&nbsp;y&nbsp;in&nbsp;x</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__delitem__"><strong>__delitem__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__delitem__">__delitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;del&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__delslice__"><strong>__delslice__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__delslice__">__delslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;del&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__getitem__"><strong>__getitem__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__getitem__">__getitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__getslice__"><strong>__getslice__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__getslice__">__getslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__iter__"><strong>__iter__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__iter__">__iter__</a>()&nbsp;&lt;==&gt;&nbsp;iter(x)</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__len__"><strong>__len__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__len__">__len__</a>()&nbsp;&lt;==&gt;&nbsp;len(x)</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__setitem__"><strong>__setitem__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__setitem__">__setitem__</a>(i,&nbsp;y)&nbsp;&lt;==&gt;&nbsp;x[i]=y</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-__setslice__"><strong>__setslice__</strong></a>(...)</dt><dd><tt>x.<a href="#PixelArray-__setslice__">__setslice__</a>(i,&nbsp;j,&nbsp;y)&nbsp;&lt;==&gt;&nbsp;x[i:j]=y<br>
+&nbsp;<br>
+Use&nbsp;&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-compare"><strong>compare</strong></a>(...)</dt><dd><tt><a href="#PixelArray">PixelArray</a>.compare&nbsp;(array,&nbsp;distance=0,&nbsp;weights=(0.299,&nbsp;0.587,&nbsp;0.114)):&nbsp;Return&nbsp;<a href="#PixelArray">PixelArray</a><br>
+Compares&nbsp;the&nbsp;<a href="#PixelArray">PixelArray</a>&nbsp;with&nbsp;another&nbsp;one.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-extract"><strong>extract</strong></a>(...)</dt><dd><tt><a href="#PixelArray">PixelArray</a>.extract&nbsp;(color,&nbsp;distance=0,&nbsp;weights=(0.299,&nbsp;0.587,&nbsp;0.114)):&nbsp;Return&nbsp;<a href="#PixelArray">PixelArray</a><br>
+Extracts&nbsp;the&nbsp;passed&nbsp;color&nbsp;from&nbsp;the&nbsp;<a href="#PixelArray">PixelArray</a>.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-make_surface"><strong>make_surface</strong></a>(...)</dt><dd><tt><a href="#PixelArray">PixelArray</a>.make_surface&nbsp;():&nbsp;Return&nbsp;<a href="#Surface">Surface</a><br>
+Creates&nbsp;a&nbsp;new&nbsp;<a href="#Surface">Surface</a>&nbsp;from&nbsp;the&nbsp;current&nbsp;<a href="#PixelArray">PixelArray</a>.</tt></dd></dl>
+
+<dl><dt><a name="PixelArray-replace"><strong>replace</strong></a>(...)</dt><dd><tt><a href="#PixelArray">PixelArray</a>.replace&nbsp;(color,&nbsp;repcolor,&nbsp;distance=0,&nbsp;weights=(0.299,&nbsp;0.587,&nbsp;0.114)):&nbsp;Return&nbsp;None<br>
+Replaces&nbsp;the&nbsp;passed&nbsp;color&nbsp;in&nbsp;the&nbsp;<a href="#PixelArray">PixelArray</a>&nbsp;with&nbsp;another&nbsp;one.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>surface</strong></dt>
+<dd><tt>PixelArray.surface:&nbsp;Return&nbsp;Surface<br>
+Gets&nbsp;the&nbsp;Surface&nbsp;the&nbsp;PixelArray&nbsp;uses.</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x01658630&gt;<dd><tt>T.<a href="#PixelArray-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Rect">class <strong>Rect</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#Rect">Rect</a>(left,&nbsp;top,&nbsp;width,&nbsp;height):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+pygame.<a href="#Rect">Rect</a>((left,&nbsp;top),&nbsp;(width,&nbsp;height)):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+pygame.<a href="#Rect">Rect</a>(<a href="__builtin__.html#object">object</a>):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;storing&nbsp;rectangular&nbsp;coordinates<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Rect-__coerce__"><strong>__coerce__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__coerce__">__coerce__</a>(y)&nbsp;&lt;==&gt;&nbsp;coerce(x,&nbsp;y)</tt></dd></dl>
+
+<dl><dt><a name="Rect-__copy__"><strong>__copy__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="Rect-__delitem__"><strong>__delitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__delitem__">__delitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;del&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="Rect-__delslice__"><strong>__delslice__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__delslice__">__delslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;del&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="Rect-__eq__"><strong>__eq__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__eq__">__eq__</a>(y)&nbsp;&lt;==&gt;&nbsp;x==y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__ge__"><strong>__ge__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__ge__">__ge__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&gt;=y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__getitem__"><strong>__getitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__getitem__">__getitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="Rect-__getslice__"><strong>__getslice__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__getslice__">__getslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="Rect-__gt__"><strong>__gt__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__gt__">__gt__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&gt;y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<dl><dt><a name="Rect-__le__"><strong>__le__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__le__">__le__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&lt;=y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__len__"><strong>__len__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__len__">__len__</a>()&nbsp;&lt;==&gt;&nbsp;len(x)</tt></dd></dl>
+
+<dl><dt><a name="Rect-__lt__"><strong>__lt__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__lt__">__lt__</a>(y)&nbsp;&lt;==&gt;&nbsp;x&lt;y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__ne__"><strong>__ne__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__ne__">__ne__</a>(y)&nbsp;&lt;==&gt;&nbsp;x!=y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__nonzero__"><strong>__nonzero__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__nonzero__">__nonzero__</a>()&nbsp;&lt;==&gt;&nbsp;x&nbsp;!=&nbsp;0</tt></dd></dl>
+
+<dl><dt><a name="Rect-__reduce__"><strong>__reduce__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="Rect-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="Rect-__setitem__"><strong>__setitem__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__setitem__">__setitem__</a>(i,&nbsp;y)&nbsp;&lt;==&gt;&nbsp;x[i]=y</tt></dd></dl>
+
+<dl><dt><a name="Rect-__setslice__"><strong>__setslice__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__setslice__">__setslice__</a>(i,&nbsp;j,&nbsp;y)&nbsp;&lt;==&gt;&nbsp;x[i:j]=y<br>
+&nbsp;<br>
+Use&nbsp;&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="Rect-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#Rect-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<dl><dt><a name="Rect-clamp"><strong>clamp</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-clamp">clamp</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+moves&nbsp;the&nbsp;rectangle&nbsp;inside&nbsp;another</tt></dd></dl>
+
+<dl><dt><a name="Rect-clamp_ip"><strong>clamp_ip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-clamp_ip">clamp_ip</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;None<br>
+moves&nbsp;the&nbsp;rectangle&nbsp;inside&nbsp;another,&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Rect-clip"><strong>clip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-clip">clip</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+crops&nbsp;a&nbsp;rectangle&nbsp;inside&nbsp;another</tt></dd></dl>
+
+<dl><dt><a name="Rect-collidedict"><strong>collidedict</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-collidedict">collidedict</a>(dict):&nbsp;return&nbsp;(key,&nbsp;value)<br>
+test&nbsp;if&nbsp;one&nbsp;rectangle&nbsp;in&nbsp;a&nbsp;dictionary&nbsp;intersects</tt></dd></dl>
+
+<dl><dt><a name="Rect-collidedictall"><strong>collidedictall</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-collidedictall">collidedictall</a>(dict):&nbsp;return&nbsp;[(key,&nbsp;value),&nbsp;...]<br>
+test&nbsp;if&nbsp;all&nbsp;rectangles&nbsp;in&nbsp;a&nbsp;dictionary&nbsp;intersect</tt></dd></dl>
+
+<dl><dt><a name="Rect-collidelist"><strong>collidelist</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-collidelist">collidelist</a>(list):&nbsp;return&nbsp;index<br>
+test&nbsp;if&nbsp;one&nbsp;rectangle&nbsp;in&nbsp;a&nbsp;list&nbsp;intersects</tt></dd></dl>
+
+<dl><dt><a name="Rect-collidelistall"><strong>collidelistall</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-collidelistall">collidelistall</a>(list):&nbsp;return&nbsp;indices<br>
+test&nbsp;if&nbsp;all&nbsp;rectangles&nbsp;in&nbsp;a&nbsp;list&nbsp;intersect</tt></dd></dl>
+
+<dl><dt><a name="Rect-collidepoint"><strong>collidepoint</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-collidepoint">collidepoint</a>(x,&nbsp;y):&nbsp;return&nbsp;bool<br>
+<a href="#Rect">Rect</a>.<a href="#Rect-collidepoint">collidepoint</a>((x,y)):&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;a&nbsp;point&nbsp;is&nbsp;inside&nbsp;a&nbsp;rectangle</tt></dd></dl>
+
+<dl><dt><a name="Rect-colliderect"><strong>colliderect</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-colliderect">colliderect</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;two&nbsp;rectangles&nbsp;overlap</tt></dd></dl>
+
+<dl><dt><a name="Rect-contains"><strong>contains</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-contains">contains</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;one&nbsp;rectangle&nbsp;is&nbsp;inside&nbsp;another</tt></dd></dl>
+
+<dl><dt><a name="Rect-copy"><strong>copy</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-copy">copy</a>():&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+copy&nbsp;the&nbsp;rectangle</tt></dd></dl>
+
+<dl><dt><a name="Rect-fit"><strong>fit</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-fit">fit</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+resize&nbsp;and&nbsp;move&nbsp;a&nbsp;rectangle&nbsp;with&nbsp;aspect&nbsp;ratio</tt></dd></dl>
+
+<dl><dt><a name="Rect-inflate"><strong>inflate</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-inflate">inflate</a>(x,&nbsp;y):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+grow&nbsp;or&nbsp;shrink&nbsp;the&nbsp;rectangle&nbsp;size</tt></dd></dl>
+
+<dl><dt><a name="Rect-inflate_ip"><strong>inflate_ip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-inflate_ip">inflate_ip</a>(x,&nbsp;y):&nbsp;return&nbsp;None<br>
+grow&nbsp;or&nbsp;shrink&nbsp;the&nbsp;rectangle&nbsp;size,&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Rect-move"><strong>move</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-move">move</a>(x,&nbsp;y):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+moves&nbsp;the&nbsp;rectangle</tt></dd></dl>
+
+<dl><dt><a name="Rect-move_ip"><strong>move_ip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-move_ip">move_ip</a>(x,&nbsp;y):&nbsp;return&nbsp;None<br>
+moves&nbsp;the&nbsp;rectangle,&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Rect-normalize"><strong>normalize</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-normalize">normalize</a>():&nbsp;return&nbsp;None<br>
+correct&nbsp;negative&nbsp;sizes</tt></dd></dl>
+
+<dl><dt><a name="Rect-union"><strong>union</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-union">union</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+joins&nbsp;two&nbsp;rectangles&nbsp;into&nbsp;one</tt></dd></dl>
+
+<dl><dt><a name="Rect-union_ip"><strong>union_ip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-union_ip">union_ip</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;None<br>
+joins&nbsp;two&nbsp;rectangles&nbsp;into&nbsp;one,&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Rect-unionall"><strong>unionall</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-unionall">unionall</a>(Rect_sequence):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+the&nbsp;union&nbsp;of&nbsp;many&nbsp;rectangles</tt></dd></dl>
+
+<dl><dt><a name="Rect-unionall_ip"><strong>unionall_ip</strong></a>(...)</dt><dd><tt><a href="#Rect">Rect</a>.<a href="#Rect-unionall_ip">unionall_ip</a>(Rect_sequence):&nbsp;return&nbsp;None<br>
+the&nbsp;union&nbsp;of&nbsp;many&nbsp;rectangles,&nbsp;in&nbsp;place</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__safe_for_unpickling__</strong></dt>
+</dl>
+<dl><dt><strong>bottom</strong></dt>
+</dl>
+<dl><dt><strong>bottomleft</strong></dt>
+</dl>
+<dl><dt><strong>bottomright</strong></dt>
+</dl>
+<dl><dt><strong>center</strong></dt>
+</dl>
+<dl><dt><strong>centerx</strong></dt>
+</dl>
+<dl><dt><strong>centery</strong></dt>
+</dl>
+<dl><dt><strong>h</strong></dt>
+</dl>
+<dl><dt><strong>height</strong></dt>
+</dl>
+<dl><dt><strong>left</strong></dt>
+</dl>
+<dl><dt><strong>midbottom</strong></dt>
+</dl>
+<dl><dt><strong>midleft</strong></dt>
+</dl>
+<dl><dt><strong>midright</strong></dt>
+</dl>
+<dl><dt><strong>midtop</strong></dt>
+</dl>
+<dl><dt><strong>right</strong></dt>
+</dl>
+<dl><dt><strong>size</strong></dt>
+</dl>
+<dl><dt><strong>top</strong></dt>
+</dl>
+<dl><dt><strong>topleft</strong></dt>
+</dl>
+<dl><dt><strong>topright</strong></dt>
+</dl>
+<dl><dt><strong>w</strong></dt>
+</dl>
+<dl><dt><strong>width</strong></dt>
+</dl>
+<dl><dt><strong>x</strong></dt>
+</dl>
+<dl><dt><strong>y</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x01106478&gt;<dd><tt>T.<a href="#Rect-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Surface">class <strong>Surface</strong></a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#Surface">Surface</a>((width,&nbsp;height),&nbsp;flags=0,&nbsp;depth=0,&nbsp;masks=None):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+pygame.<a href="#Surface">Surface</a>((width,&nbsp;height),&nbsp;flags=0,&nbsp;<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;representing&nbsp;images<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Surface-__copy__"><strong>__copy__</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-copy">copy</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;copy&nbsp;of&nbsp;a&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#Surface-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<dl><dt><a name="Surface-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#Surface-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="Surface-blit"><strong>blit</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-blit">blit</a>(source,&nbsp;dest,&nbsp;area=None,&nbsp;special_flags&nbsp;=&nbsp;0):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+draw&nbsp;one&nbsp;image&nbsp;onto&nbsp;another</tt></dd></dl>
+
+<dl><dt><a name="Surface-convert"><strong>convert</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-convert">convert</a>(<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#Surface-convert">convert</a>(depth,&nbsp;flags=0):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#Surface-convert">convert</a>(masks,&nbsp;flags=0):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#Surface-convert">convert</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+change&nbsp;the&nbsp;pixel&nbsp;format&nbsp;of&nbsp;an&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="Surface-convert_alpha"><strong>convert_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-convert_alpha">convert_alpha</a>(<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#Surface-convert_alpha">convert_alpha</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+change&nbsp;the&nbsp;pixel&nbsp;format&nbsp;of&nbsp;an&nbsp;image&nbsp;including&nbsp;per&nbsp;pixel&nbsp;alphas</tt></dd></dl>
+
+<dl><dt><a name="Surface-copy"><strong>copy</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-copy">copy</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;copy&nbsp;of&nbsp;a&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-fill"><strong>fill</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-fill">fill</a>(color,&nbsp;rect=None,&nbsp;special_flags=0):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+fill&nbsp;<a href="#Surface">Surface</a>&nbsp;with&nbsp;a&nbsp;solid&nbsp;color</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_abs_offset"><strong>get_abs_offset</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_abs_offset">get_abs_offset</a>():&nbsp;return&nbsp;(x,&nbsp;y)<br>
+find&nbsp;the&nbsp;absolute&nbsp;position&nbsp;of&nbsp;a&nbsp;child&nbsp;subsurface&nbsp;inside&nbsp;its&nbsp;top&nbsp;level&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_abs_parent"><strong>get_abs_parent</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_abs_parent">get_abs_parent</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+find&nbsp;the&nbsp;top&nbsp;level&nbsp;parent&nbsp;of&nbsp;a&nbsp;subsurface</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_alpha"><strong>get_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_alpha">get_alpha</a>():&nbsp;return&nbsp;int_value&nbsp;or&nbsp;None<br>
+get&nbsp;the&nbsp;current&nbsp;<a href="#Surface">Surface</a>&nbsp;transparency&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_at"><strong>get_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_at">get_at</a>((x,&nbsp;y)):&nbsp;return&nbsp;<a href="#Color">Color</a><br>
+get&nbsp;the&nbsp;color&nbsp;value&nbsp;at&nbsp;a&nbsp;single&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bitsize"><strong>get_bitsize</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_bitsize">get_bitsize</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;bit&nbsp;depth&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;pixel&nbsp;format</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bounding_rect"><strong>get_bounding_rect</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_bounding_rect">get_bounding_rect</a>(min_alpha&nbsp;=&nbsp;1):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+find&nbsp;the&nbsp;smallest&nbsp;rect&nbsp;containing&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_buffer"><strong>get_buffer</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_buffer">get_buffer</a>():&nbsp;return&nbsp;BufferProxy<br>
+acquires&nbsp;a&nbsp;buffer&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;pixels&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a>.</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bytesize"><strong>get_bytesize</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_bytesize">get_bytesize</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;bytes&nbsp;used&nbsp;per&nbsp;<a href="#Surface">Surface</a>&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_clip"><strong>get_clip</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_clip">get_clip</a>():&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+get&nbsp;the&nbsp;current&nbsp;clipping&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_colorkey"><strong>get_colorkey</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_colorkey">get_colorkey</a>():&nbsp;return&nbsp;RGB&nbsp;or&nbsp;None<br>
+Get&nbsp;the&nbsp;current&nbsp;transparent&nbsp;colorkey</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_flags"><strong>get_flags</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_flags">get_flags</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;additional&nbsp;flags&nbsp;used&nbsp;for&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_height"><strong>get_height</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_height">get_height</a>():&nbsp;return&nbsp;height<br>
+get&nbsp;the&nbsp;height&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_locked"><strong>get_locked</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_locked">get_locked</a>():&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;is&nbsp;current&nbsp;locked</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_locks"><strong>get_locks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_locks">get_locks</a>():&nbsp;return&nbsp;tuple<br>
+Gets&nbsp;the&nbsp;locks&nbsp;for&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_losses"><strong>get_losses</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_losses">get_losses</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;significant&nbsp;bits&nbsp;used&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_masks"><strong>get_masks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_masks">get_masks</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;bitmasks&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_offset"><strong>get_offset</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_offset">get_offset</a>():&nbsp;return&nbsp;(x,&nbsp;y)<br>
+find&nbsp;the&nbsp;position&nbsp;of&nbsp;a&nbsp;child&nbsp;subsurface&nbsp;inside&nbsp;a&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_palette"><strong>get_palette</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_palette">get_palette</a>():&nbsp;return&nbsp;[RGB,&nbsp;RGB,&nbsp;RGB,&nbsp;...]<br>
+get&nbsp;the&nbsp;color&nbsp;index&nbsp;palette&nbsp;for&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_palette_at"><strong>get_palette_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_palette_at">get_palette_at</a>(index):&nbsp;return&nbsp;RGB<br>
+get&nbsp;the&nbsp;color&nbsp;for&nbsp;a&nbsp;single&nbsp;entry&nbsp;in&nbsp;a&nbsp;palette</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_parent"><strong>get_parent</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_parent">get_parent</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+find&nbsp;the&nbsp;parent&nbsp;of&nbsp;a&nbsp;subsurface</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_pitch"><strong>get_pitch</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_pitch">get_pitch</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;number&nbsp;of&nbsp;bytes&nbsp;used&nbsp;per&nbsp;<a href="#Surface">Surface</a>&nbsp;row</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_rect"><strong>get_rect</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_rect">get_rect</a>(**kwargs):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+get&nbsp;the&nbsp;rectangular&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_shifts"><strong>get_shifts</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_shifts">get_shifts</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;bit&nbsp;shifts&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_size"><strong>get_size</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_size">get_size</a>():&nbsp;return&nbsp;(width,&nbsp;height)<br>
+get&nbsp;the&nbsp;dimensions&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_width"><strong>get_width</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_width">get_width</a>():&nbsp;return&nbsp;width<br>
+get&nbsp;the&nbsp;width&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-lock"><strong>lock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-lock">lock</a>():&nbsp;return&nbsp;None<br>
+lock&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;memory&nbsp;for&nbsp;pixel&nbsp;access</tt></dd></dl>
+
+<dl><dt><a name="Surface-map_rgb"><strong>map_rgb</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-map_rgb">map_rgb</a>(<a href="#Color">Color</a>):&nbsp;return&nbsp;mapped_int<br>
+convert&nbsp;a&nbsp;color&nbsp;into&nbsp;a&nbsp;mapped&nbsp;color&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="Surface-mustlock"><strong>mustlock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-mustlock">mustlock</a>():&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;requires&nbsp;locking</tt></dd></dl>
+
+<dl><dt><a name="Surface-scroll"><strong>scroll</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-scroll">scroll</a>(dx=0,&nbsp;dy=0):&nbsp;return&nbsp;None<br>
+Shift&nbsp;the&nbsp;surface&nbsp;image&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_alpha"><strong>set_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_alpha">set_alpha</a>(value,&nbsp;flags=0):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#Surface-set_alpha">set_alpha</a>(None):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;alpha&nbsp;value&nbsp;for&nbsp;the&nbsp;full&nbsp;<a href="#Surface">Surface</a>&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_at"><strong>set_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_at">set_at</a>((x,&nbsp;y),&nbsp;<a href="#Color">Color</a>):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;value&nbsp;for&nbsp;a&nbsp;single&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_clip"><strong>set_clip</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_clip">set_clip</a>(rect):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#Surface-set_clip">set_clip</a>(None):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;current&nbsp;clipping&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-set_colorkey"><strong>set_colorkey</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_colorkey">set_colorkey</a>(<a href="#Color">Color</a>,&nbsp;flags=0):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#Surface-set_colorkey">set_colorkey</a>(None):&nbsp;return&nbsp;None<br>
+Set&nbsp;the&nbsp;transparent&nbsp;colorkey</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_masks"><strong>set_masks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_masks">set_masks</a>((r,g,b,a)):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;bitmasks&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_palette"><strong>set_palette</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_palette">set_palette</a>([RGB,&nbsp;RGB,&nbsp;RGB,&nbsp;...]):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;palette&nbsp;for&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-set_palette_at"><strong>set_palette_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-set_at">set_at</a>(index,&nbsp;RGB):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;for&nbsp;a&nbsp;single&nbsp;index&nbsp;in&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a>&nbsp;palette</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_shifts"><strong>set_shifts</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-get_shifts">get_shifts</a>((r,g,b,a)):&nbsp;return&nbsp;None<br>
+sets&nbsp;the&nbsp;bit&nbsp;shifts&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-subsurface"><strong>subsurface</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-subsurface">subsurface</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;surface&nbsp;that&nbsp;references&nbsp;its&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-unlock"><strong>unlock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-unlock">unlock</a>():&nbsp;return&nbsp;None<br>
+unlock&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;memory&nbsp;from&nbsp;pixel&nbsp;access</tt></dd></dl>
+
+<dl><dt><a name="Surface-unmap_rgb"><strong>unmap_rgb</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#Surface-map_rgb">map_rgb</a>(mapped_int):&nbsp;return&nbsp;<a href="#Color">Color</a><br>
+convert&nbsp;a&nbsp;mapped&nbsp;integer&nbsp;color&nbsp;value&nbsp;into&nbsp;a&nbsp;<a href="#Color">Color</a></tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x015D2720&gt;<dd><tt>T.<a href="#Surface-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><strong>SurfaceType</strong> = <a name="SurfaceType">class Surface</a>(<a href="__builtin__.html#object">__builtin__.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>pygame.<a href="#Surface">Surface</a>((width,&nbsp;height),&nbsp;flags=0,&nbsp;depth=0,&nbsp;masks=None):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+pygame.<a href="#Surface">Surface</a>((width,&nbsp;height),&nbsp;flags=0,&nbsp;<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;representing&nbsp;images<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Surface-__copy__"><strong>__copy__</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-copy">copy</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;copy&nbsp;of&nbsp;a&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#SurfaceType-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<dl><dt><a name="Surface-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#SurfaceType-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="Surface-blit"><strong>blit</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-blit">blit</a>(source,&nbsp;dest,&nbsp;area=None,&nbsp;special_flags&nbsp;=&nbsp;0):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+draw&nbsp;one&nbsp;image&nbsp;onto&nbsp;another</tt></dd></dl>
+
+<dl><dt><a name="Surface-convert"><strong>convert</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-convert">convert</a>(<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-convert">convert</a>(depth,&nbsp;flags=0):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-convert">convert</a>(masks,&nbsp;flags=0):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-convert">convert</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+change&nbsp;the&nbsp;pixel&nbsp;format&nbsp;of&nbsp;an&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="Surface-convert_alpha"><strong>convert_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-convert_alpha">convert_alpha</a>(<a href="#Surface">Surface</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-convert_alpha">convert_alpha</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+change&nbsp;the&nbsp;pixel&nbsp;format&nbsp;of&nbsp;an&nbsp;image&nbsp;including&nbsp;per&nbsp;pixel&nbsp;alphas</tt></dd></dl>
+
+<dl><dt><a name="Surface-copy"><strong>copy</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-copy">copy</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;copy&nbsp;of&nbsp;a&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-fill"><strong>fill</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-fill">fill</a>(color,&nbsp;rect=None,&nbsp;special_flags=0):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+fill&nbsp;<a href="#Surface">Surface</a>&nbsp;with&nbsp;a&nbsp;solid&nbsp;color</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_abs_offset"><strong>get_abs_offset</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_abs_offset">get_abs_offset</a>():&nbsp;return&nbsp;(x,&nbsp;y)<br>
+find&nbsp;the&nbsp;absolute&nbsp;position&nbsp;of&nbsp;a&nbsp;child&nbsp;subsurface&nbsp;inside&nbsp;its&nbsp;top&nbsp;level&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_abs_parent"><strong>get_abs_parent</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_abs_parent">get_abs_parent</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+find&nbsp;the&nbsp;top&nbsp;level&nbsp;parent&nbsp;of&nbsp;a&nbsp;subsurface</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_alpha"><strong>get_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_alpha">get_alpha</a>():&nbsp;return&nbsp;int_value&nbsp;or&nbsp;None<br>
+get&nbsp;the&nbsp;current&nbsp;<a href="#Surface">Surface</a>&nbsp;transparency&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_at"><strong>get_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_at">get_at</a>((x,&nbsp;y)):&nbsp;return&nbsp;<a href="#Color">Color</a><br>
+get&nbsp;the&nbsp;color&nbsp;value&nbsp;at&nbsp;a&nbsp;single&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bitsize"><strong>get_bitsize</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_bitsize">get_bitsize</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;bit&nbsp;depth&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;pixel&nbsp;format</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bounding_rect"><strong>get_bounding_rect</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_bounding_rect">get_bounding_rect</a>(min_alpha&nbsp;=&nbsp;1):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+find&nbsp;the&nbsp;smallest&nbsp;rect&nbsp;containing&nbsp;data</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_buffer"><strong>get_buffer</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_buffer">get_buffer</a>():&nbsp;return&nbsp;BufferProxy<br>
+acquires&nbsp;a&nbsp;buffer&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;the&nbsp;pixels&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a>.</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_bytesize"><strong>get_bytesize</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_bytesize">get_bytesize</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;bytes&nbsp;used&nbsp;per&nbsp;<a href="#Surface">Surface</a>&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_clip"><strong>get_clip</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_clip">get_clip</a>():&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+get&nbsp;the&nbsp;current&nbsp;clipping&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_colorkey"><strong>get_colorkey</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_colorkey">get_colorkey</a>():&nbsp;return&nbsp;RGB&nbsp;or&nbsp;None<br>
+Get&nbsp;the&nbsp;current&nbsp;transparent&nbsp;colorkey</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_flags"><strong>get_flags</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_flags">get_flags</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;additional&nbsp;flags&nbsp;used&nbsp;for&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_height"><strong>get_height</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_height">get_height</a>():&nbsp;return&nbsp;height<br>
+get&nbsp;the&nbsp;height&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_locked"><strong>get_locked</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_locked">get_locked</a>():&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;is&nbsp;current&nbsp;locked</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_locks"><strong>get_locks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_locks">get_locks</a>():&nbsp;return&nbsp;tuple<br>
+Gets&nbsp;the&nbsp;locks&nbsp;for&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_losses"><strong>get_losses</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_losses">get_losses</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;significant&nbsp;bits&nbsp;used&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_masks"><strong>get_masks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_masks">get_masks</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;bitmasks&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_offset"><strong>get_offset</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_offset">get_offset</a>():&nbsp;return&nbsp;(x,&nbsp;y)<br>
+find&nbsp;the&nbsp;position&nbsp;of&nbsp;a&nbsp;child&nbsp;subsurface&nbsp;inside&nbsp;a&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_palette"><strong>get_palette</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_palette">get_palette</a>():&nbsp;return&nbsp;[RGB,&nbsp;RGB,&nbsp;RGB,&nbsp;...]<br>
+get&nbsp;the&nbsp;color&nbsp;index&nbsp;palette&nbsp;for&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_palette_at"><strong>get_palette_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_palette_at">get_palette_at</a>(index):&nbsp;return&nbsp;RGB<br>
+get&nbsp;the&nbsp;color&nbsp;for&nbsp;a&nbsp;single&nbsp;entry&nbsp;in&nbsp;a&nbsp;palette</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_parent"><strong>get_parent</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_parent">get_parent</a>():&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+find&nbsp;the&nbsp;parent&nbsp;of&nbsp;a&nbsp;subsurface</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_pitch"><strong>get_pitch</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_pitch">get_pitch</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;number&nbsp;of&nbsp;bytes&nbsp;used&nbsp;per&nbsp;<a href="#Surface">Surface</a>&nbsp;row</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_rect"><strong>get_rect</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_rect">get_rect</a>(**kwargs):&nbsp;return&nbsp;<a href="#Rect">Rect</a><br>
+get&nbsp;the&nbsp;rectangular&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_shifts"><strong>get_shifts</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_shifts">get_shifts</a>():&nbsp;return&nbsp;(R,&nbsp;G,&nbsp;B,&nbsp;A)<br>
+the&nbsp;bit&nbsp;shifts&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-get_size"><strong>get_size</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_size">get_size</a>():&nbsp;return&nbsp;(width,&nbsp;height)<br>
+get&nbsp;the&nbsp;dimensions&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-get_width"><strong>get_width</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_width">get_width</a>():&nbsp;return&nbsp;width<br>
+get&nbsp;the&nbsp;width&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-lock"><strong>lock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-lock">lock</a>():&nbsp;return&nbsp;None<br>
+lock&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;memory&nbsp;for&nbsp;pixel&nbsp;access</tt></dd></dl>
+
+<dl><dt><a name="Surface-map_rgb"><strong>map_rgb</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-map_rgb">map_rgb</a>(<a href="#Color">Color</a>):&nbsp;return&nbsp;mapped_int<br>
+convert&nbsp;a&nbsp;color&nbsp;into&nbsp;a&nbsp;mapped&nbsp;color&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="Surface-mustlock"><strong>mustlock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-mustlock">mustlock</a>():&nbsp;return&nbsp;bool<br>
+test&nbsp;if&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;requires&nbsp;locking</tt></dd></dl>
+
+<dl><dt><a name="Surface-scroll"><strong>scroll</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-scroll">scroll</a>(dx=0,&nbsp;dy=0):&nbsp;return&nbsp;None<br>
+Shift&nbsp;the&nbsp;surface&nbsp;image&nbsp;in&nbsp;place</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_alpha"><strong>set_alpha</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_alpha">set_alpha</a>(value,&nbsp;flags=0):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-set_alpha">set_alpha</a>(None):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;alpha&nbsp;value&nbsp;for&nbsp;the&nbsp;full&nbsp;<a href="#Surface">Surface</a>&nbsp;image</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_at"><strong>set_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_at">set_at</a>((x,&nbsp;y),&nbsp;<a href="#Color">Color</a>):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;value&nbsp;for&nbsp;a&nbsp;single&nbsp;pixel</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_clip"><strong>set_clip</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_clip">set_clip</a>(rect):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-set_clip">set_clip</a>(None):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;current&nbsp;clipping&nbsp;area&nbsp;of&nbsp;the&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-set_colorkey"><strong>set_colorkey</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_colorkey">set_colorkey</a>(<a href="#Color">Color</a>,&nbsp;flags=0):&nbsp;return&nbsp;None<br>
+<a href="#Surface">Surface</a>.<a href="#SurfaceType-set_colorkey">set_colorkey</a>(None):&nbsp;return&nbsp;None<br>
+Set&nbsp;the&nbsp;transparent&nbsp;colorkey</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_masks"><strong>set_masks</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_masks">set_masks</a>((r,g,b,a)):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;bitmasks&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_palette"><strong>set_palette</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_palette">set_palette</a>([RGB,&nbsp;RGB,&nbsp;RGB,&nbsp;...]):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;palette&nbsp;for&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a></tt></dd></dl>
+
+<dl><dt><a name="Surface-set_palette_at"><strong>set_palette_at</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-set_at">set_at</a>(index,&nbsp;RGB):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;color&nbsp;for&nbsp;a&nbsp;single&nbsp;index&nbsp;in&nbsp;an&nbsp;8bit&nbsp;<a href="#Surface">Surface</a>&nbsp;palette</tt></dd></dl>
+
+<dl><dt><a name="Surface-set_shifts"><strong>set_shifts</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-get_shifts">get_shifts</a>((r,g,b,a)):&nbsp;return&nbsp;None<br>
+sets&nbsp;the&nbsp;bit&nbsp;shifts&nbsp;needed&nbsp;to&nbsp;convert&nbsp;between&nbsp;a&nbsp;color&nbsp;and&nbsp;a&nbsp;mapped&nbsp;integer</tt></dd></dl>
+
+<dl><dt><a name="Surface-subsurface"><strong>subsurface</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-subsurface">subsurface</a>(<a href="#Rect">Rect</a>):&nbsp;return&nbsp;<a href="#Surface">Surface</a><br>
+create&nbsp;a&nbsp;new&nbsp;surface&nbsp;that&nbsp;references&nbsp;its&nbsp;parent</tt></dd></dl>
+
+<dl><dt><a name="Surface-unlock"><strong>unlock</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-unlock">unlock</a>():&nbsp;return&nbsp;None<br>
+unlock&nbsp;the&nbsp;<a href="#Surface">Surface</a>&nbsp;memory&nbsp;from&nbsp;pixel&nbsp;access</tt></dd></dl>
+
+<dl><dt><a name="Surface-unmap_rgb"><strong>unmap_rgb</strong></a>(...)</dt><dd><tt><a href="#Surface">Surface</a>.<a href="#SurfaceType-map_rgb">map_rgb</a>(mapped_int):&nbsp;return&nbsp;<a href="#Color">Color</a><br>
+convert&nbsp;a&nbsp;mapped&nbsp;integer&nbsp;color&nbsp;value&nbsp;into&nbsp;a&nbsp;<a href="#Color">Color</a></tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x015D2720&gt;<dd><tt>T.<a href="#SurfaceType-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="error">class <strong>error</strong></a>(<a href="exceptions.html#RuntimeError">exceptions.RuntimeError</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="pygame.html#error">error</a></dd>
+<dd><a href="exceptions.html#RuntimeError">exceptions.RuntimeError</a></dd>
+<dd><a href="exceptions.html#StandardError">exceptions.StandardError</a></dd>
+<dd><a href="exceptions.html#Exception">exceptions.Exception</a></dd>
+<dd><a href="exceptions.html#BaseException">exceptions.BaseException</a></dd>
+<dd><a href="__builtin__.html#object">__builtin__.object</a></dd>
+</dl>
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Methods inherited from <a href="exceptions.html#RuntimeError">exceptions.RuntimeError</a>:<br>
+<dl><dt><a name="error-__init__"><strong>__init__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__init__">__init__</a>(...)&nbsp;initializes&nbsp;x;&nbsp;see&nbsp;x.__class__.__doc__&nbsp;for&nbsp;signature</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="exceptions.html#RuntimeError">exceptions.RuntimeError</a>:<br>
+<dl><dt><strong>__new__</strong> = &lt;built-in method __new__ of type object at 0x1E1CD748&gt;<dd><tt>T.<a href="#error-__new__">__new__</a>(S,&nbsp;...)&nbsp;-&gt;&nbsp;a&nbsp;new&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;with&nbsp;type&nbsp;S,&nbsp;a&nbsp;subtype&nbsp;of&nbsp;T</tt></dl>
+
+<hr>
+Methods inherited from <a href="exceptions.html#BaseException">exceptions.BaseException</a>:<br>
+<dl><dt><a name="error-__delattr__"><strong>__delattr__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__delattr__">__delattr__</a>('name')&nbsp;&lt;==&gt;&nbsp;del&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="error-__getattribute__"><strong>__getattribute__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__getattribute__">__getattribute__</a>('name')&nbsp;&lt;==&gt;&nbsp;x.name</tt></dd></dl>
+
+<dl><dt><a name="error-__getitem__"><strong>__getitem__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__getitem__">__getitem__</a>(y)&nbsp;&lt;==&gt;&nbsp;x[y]</tt></dd></dl>
+
+<dl><dt><a name="error-__getslice__"><strong>__getslice__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__getslice__">__getslice__</a>(i,&nbsp;j)&nbsp;&lt;==&gt;&nbsp;x[i:j]<br>
+&nbsp;<br>
+Use&nbsp;of&nbsp;negative&nbsp;indices&nbsp;is&nbsp;not&nbsp;supported.</tt></dd></dl>
+
+<dl><dt><a name="error-__reduce__"><strong>__reduce__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="error-__repr__"><strong>__repr__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__repr__">__repr__</a>()&nbsp;&lt;==&gt;&nbsp;repr(x)</tt></dd></dl>
+
+<dl><dt><a name="error-__setattr__"><strong>__setattr__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__setattr__">__setattr__</a>('name',&nbsp;value)&nbsp;&lt;==&gt;&nbsp;x.name&nbsp;=&nbsp;value</tt></dd></dl>
+
+<dl><dt><a name="error-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="error-__str__"><strong>__str__</strong></a>(...)</dt><dd><tt>x.<a href="#error-__str__">__str__</a>()&nbsp;&lt;==&gt;&nbsp;str(x)</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="exceptions.html#BaseException">exceptions.BaseException</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+<dl><dt><strong>message</strong></dt>
+<dd><tt>exception&nbsp;message</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-Mask"><strong>Mask</strong></a>(...)</dt><dd><tt>pygame.<a href="#-Mask">Mask</a>((width,&nbsp;height)):&nbsp;return&nbsp;Mask<br>
+pygame&nbsp;<a href="__builtin__.html#object">object</a>&nbsp;for&nbsp;representing&nbsp;2d&nbsp;bitmasks</tt></dd></dl>
+ <dl><dt><a name="-get_error"><strong>get_error</strong></a>(...)</dt><dd><tt>pygame.<a href="#-get_error">get_error</a>():&nbsp;return&nbsp;errorstr<br>
+get&nbsp;the&nbsp;current&nbsp;<a href="#error">error</a>&nbsp;message</tt></dd></dl>
+ <dl><dt><a name="-get_sdl_byteorder"><strong>get_sdl_byteorder</strong></a>(...)</dt><dd><tt>pygame.<a href="#-get_sdl_byteorder">get_sdl_byteorder</a>():&nbsp;return&nbsp;int<br>
+get&nbsp;the&nbsp;byte&nbsp;order&nbsp;of&nbsp;SDL</tt></dd></dl>
+ <dl><dt><a name="-get_sdl_version"><strong>get_sdl_version</strong></a>(...)</dt><dd><tt>pygame.<a href="#-get_sdl_version">get_sdl_version</a>():&nbsp;return&nbsp;major,&nbsp;minor,&nbsp;patch<br>
+get&nbsp;the&nbsp;version&nbsp;number&nbsp;of&nbsp;SDL</tt></dd></dl>
+ <dl><dt><a name="-init"><strong>init</strong></a>(...)</dt><dd><tt>pygame.<a href="#-init">init</a>():&nbsp;return&nbsp;(numpass,&nbsp;numfail)<br>
+initialize&nbsp;all&nbsp;imported&nbsp;pygame&nbsp;modules</tt></dd></dl>
+ <dl><dt><a name="-packager_imports"><strong>packager_imports</strong></a>()</dt><dd><tt>Some&nbsp;additional&nbsp;things&nbsp;that&nbsp;py2app/py2exe&nbsp;will&nbsp;want&nbsp;to&nbsp;see</tt></dd></dl>
+ <dl><dt><a name="-quit"><strong>quit</strong></a>(...)</dt><dd><tt>pygame.<a href="#-quit">quit</a>():&nbsp;return&nbsp;None<br>
+uninitialize&nbsp;all&nbsp;pygame&nbsp;modules</tt></dd></dl>
+ <dl><dt><a name="-register_quit"><strong>register_quit</strong></a>(...)</dt><dd><tt><a href="#-register_quit">register_quit</a>(callable):&nbsp;return&nbsp;None<br>
+register&nbsp;a&nbsp;function&nbsp;to&nbsp;be&nbsp;called&nbsp;when&nbsp;pygame&nbsp;quits</tt></dd></dl>
+ <dl><dt><a name="-segfault"><strong>segfault</strong></a>(...)</dt><dd><tt>crash</tt></dd></dl>
+ <dl><dt><a name="-set_error"><strong>set_error</strong></a>(...)</dt><dd><tt>pygame.<a href="#-set_error">set_error</a>(error_msg):&nbsp;return&nbsp;None<br>
+set&nbsp;the&nbsp;current&nbsp;<a href="#error">error</a>&nbsp;message</tt></dd></dl>
+ <dl><dt><a name="-warn_unwanted_files"><strong>warn_unwanted_files</strong></a>()</dt><dd><tt>Used&nbsp;to&nbsp;warn&nbsp;about&nbsp;unneeded&nbsp;old&nbsp;files.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>ACTIVEEVENT</strong> = 1<br>
+<strong>ANYFORMAT</strong> = 268435456<br>
+<strong>ASYNCBLIT</strong> = 4<br>
+<strong>AUDIO_S16</strong> = 32784<br>
+<strong>AUDIO_S16LSB</strong> = 32784<br>
+<strong>AUDIO_S16MSB</strong> = 36880<br>
+<strong>AUDIO_S16SYS</strong> = 32784<br>
+<strong>AUDIO_S8</strong> = 32776<br>
+<strong>AUDIO_U16</strong> = 16<br>
+<strong>AUDIO_U16LSB</strong> = 16<br>
+<strong>AUDIO_U16MSB</strong> = 4112<br>
+<strong>AUDIO_U16SYS</strong> = 16<br>
+<strong>AUDIO_U8</strong> = 8<br>
+<strong>BIG_ENDIAN</strong> = 4321<br>
+<strong>BLEND_ADD</strong> = 1<br>
+<strong>BLEND_MAX</strong> = 5<br>
+<strong>BLEND_MIN</strong> = 4<br>
+<strong>BLEND_MULT</strong> = 3<br>
+<strong>BLEND_RGBA_ADD</strong> = 6<br>
+<strong>BLEND_RGBA_MAX</strong> = 16<br>
+<strong>BLEND_RGBA_MIN</strong> = 9<br>
+<strong>BLEND_RGBA_MULT</strong> = 8<br>
+<strong>BLEND_RGBA_SUB</strong> = 7<br>
+<strong>BLEND_RGB_ADD</strong> = 1<br>
+<strong>BLEND_RGB_MAX</strong> = 5<br>
+<strong>BLEND_RGB_MIN</strong> = 4<br>
+<strong>BLEND_RGB_MULT</strong> = 3<br>
+<strong>BLEND_RGB_SUB</strong> = 2<br>
+<strong>BLEND_SUB</strong> = 2<br>
+<strong>BUTTON_X1</strong> = 6<br>
+<strong>BUTTON_X2</strong> = 7<br>
+<strong>DOUBLEBUF</strong> = 1073741824<br>
+<strong>FULLSCREEN</strong> = -2147483648<br>
+<strong>GL_ACCELERATED_VISUAL</strong> = 15<br>
+<strong>GL_ACCUM_ALPHA_SIZE</strong> = 11<br>
+<strong>GL_ACCUM_BLUE_SIZE</strong> = 10<br>
+<strong>GL_ACCUM_GREEN_SIZE</strong> = 9<br>
+<strong>GL_ACCUM_RED_SIZE</strong> = 8<br>
+<strong>GL_ALPHA_SIZE</strong> = 3<br>
+<strong>GL_BLUE_SIZE</strong> = 2<br>
+<strong>GL_BUFFER_SIZE</strong> = 4<br>
+<strong>GL_DEPTH_SIZE</strong> = 6<br>
+<strong>GL_DOUBLEBUFFER</strong> = 5<br>
+<strong>GL_GREEN_SIZE</strong> = 1<br>
+<strong>GL_MULTISAMPLEBUFFERS</strong> = 13<br>
+<strong>GL_MULTISAMPLESAMPLES</strong> = 14<br>
+<strong>GL_RED_SIZE</strong> = 0<br>
+<strong>GL_STENCIL_SIZE</strong> = 7<br>
+<strong>GL_STEREO</strong> = 12<br>
+<strong>GL_SWAP_CONTROL</strong> = 16<br>
+<strong>HAT_CENTERED</strong> = 0<br>
+<strong>HAT_DOWN</strong> = 4<br>
+<strong>HAT_LEFT</strong> = 8<br>
+<strong>HAT_LEFTDOWN</strong> = 12<br>
+<strong>HAT_LEFTUP</strong> = 9<br>
+<strong>HAT_RIGHT</strong> = 2<br>
+<strong>HAT_RIGHTDOWN</strong> = 6<br>
+<strong>HAT_RIGHTUP</strong> = 3<br>
+<strong>HAT_UP</strong> = 1<br>
+<strong>HWACCEL</strong> = 256<br>
+<strong>HWPALETTE</strong> = 536870912<br>
+<strong>HWSURFACE</strong> = 1<br>
+<strong>IYUV_OVERLAY</strong> = 1448433993<br>
+<strong>JOYAXISMOTION</strong> = 7<br>
+<strong>JOYBALLMOTION</strong> = 8<br>
+<strong>JOYBUTTONDOWN</strong> = 10<br>
+<strong>JOYBUTTONUP</strong> = 11<br>
+<strong>JOYHATMOTION</strong> = 9<br>
+<strong>KEYDOWN</strong> = 2<br>
+<strong>KEYUP</strong> = 3<br>
+<strong>KMOD_ALT</strong> = 768<br>
+<strong>KMOD_CAPS</strong> = 8192<br>
+<strong>KMOD_CTRL</strong> = 192<br>
+<strong>KMOD_LALT</strong> = 256<br>
+<strong>KMOD_LCTRL</strong> = 64<br>
+<strong>KMOD_LMETA</strong> = 1024<br>
+<strong>KMOD_LSHIFT</strong> = 1<br>
+<strong>KMOD_META</strong> = 3072<br>
+<strong>KMOD_MODE</strong> = 16384<br>
+<strong>KMOD_NONE</strong> = 0<br>
+<strong>KMOD_NUM</strong> = 4096<br>
+<strong>KMOD_RALT</strong> = 512<br>
+<strong>KMOD_RCTRL</strong> = 128<br>
+<strong>KMOD_RMETA</strong> = 2048<br>
+<strong>KMOD_RSHIFT</strong> = 2<br>
+<strong>KMOD_SHIFT</strong> = 3<br>
+<strong>K_0</strong> = 48<br>
+<strong>K_1</strong> = 49<br>
+<strong>K_2</strong> = 50<br>
+<strong>K_3</strong> = 51<br>
+<strong>K_4</strong> = 52<br>
+<strong>K_5</strong> = 53<br>
+<strong>K_6</strong> = 54<br>
+<strong>K_7</strong> = 55<br>
+<strong>K_8</strong> = 56<br>
+<strong>K_9</strong> = 57<br>
+<strong>K_AMPERSAND</strong> = 38<br>
+<strong>K_ASTERISK</strong> = 42<br>
+<strong>K_AT</strong> = 64<br>
+<strong>K_BACKQUOTE</strong> = 96<br>
+<strong>K_BACKSLASH</strong> = 92<br>
+<strong>K_BACKSPACE</strong> = 8<br>
+<strong>K_BREAK</strong> = 318<br>
+<strong>K_CAPSLOCK</strong> = 301<br>
+<strong>K_CARET</strong> = 94<br>
+<strong>K_CLEAR</strong> = 12<br>
+<strong>K_COLON</strong> = 58<br>
+<strong>K_COMMA</strong> = 44<br>
+<strong>K_DELETE</strong> = 127<br>
+<strong>K_DOLLAR</strong> = 36<br>
+<strong>K_DOWN</strong> = 274<br>
+<strong>K_END</strong> = 279<br>
+<strong>K_EQUALS</strong> = 61<br>
+<strong>K_ESCAPE</strong> = 27<br>
+<strong>K_EURO</strong> = 321<br>
+<strong>K_EXCLAIM</strong> = 33<br>
+<strong>K_F1</strong> = 282<br>
+<strong>K_F10</strong> = 291<br>
+<strong>K_F11</strong> = 292<br>
+<strong>K_F12</strong> = 293<br>
+<strong>K_F13</strong> = 294<br>
+<strong>K_F14</strong> = 295<br>
+<strong>K_F15</strong> = 296<br>
+<strong>K_F2</strong> = 283<br>
+<strong>K_F3</strong> = 284<br>
+<strong>K_F4</strong> = 285<br>
+<strong>K_F5</strong> = 286<br>
+<strong>K_F6</strong> = 287<br>
+<strong>K_F7</strong> = 288<br>
+<strong>K_F8</strong> = 289<br>
+<strong>K_F9</strong> = 290<br>
+<strong>K_FIRST</strong> = 0<br>
+<strong>K_GREATER</strong> = 62<br>
+<strong>K_HASH</strong> = 35<br>
+<strong>K_HELP</strong> = 315<br>
+<strong>K_HOME</strong> = 278<br>
+<strong>K_INSERT</strong> = 277<br>
+<strong>K_KP0</strong> = 256<br>
+<strong>K_KP1</strong> = 257<br>
+<strong>K_KP2</strong> = 258<br>
+<strong>K_KP3</strong> = 259<br>
+<strong>K_KP4</strong> = 260<br>
+<strong>K_KP5</strong> = 261<br>
+<strong>K_KP6</strong> = 262<br>
+<strong>K_KP7</strong> = 263<br>
+<strong>K_KP8</strong> = 264<br>
+<strong>K_KP9</strong> = 265<br>
+<strong>K_KP_DIVIDE</strong> = 267<br>
+<strong>K_KP_ENTER</strong> = 271<br>
+<strong>K_KP_EQUALS</strong> = 272<br>
+<strong>K_KP_MINUS</strong> = 269<br>
+<strong>K_KP_MULTIPLY</strong> = 268<br>
+<strong>K_KP_PERIOD</strong> = 266<br>
+<strong>K_KP_PLUS</strong> = 270<br>
+<strong>K_LALT</strong> = 308<br>
+<strong>K_LAST</strong> = 323<br>
+<strong>K_LCTRL</strong> = 306<br>
+<strong>K_LEFT</strong> = 276<br>
+<strong>K_LEFTBRACKET</strong> = 91<br>
+<strong>K_LEFTPAREN</strong> = 40<br>
+<strong>K_LESS</strong> = 60<br>
+<strong>K_LMETA</strong> = 310<br>
+<strong>K_LSHIFT</strong> = 304<br>
+<strong>K_LSUPER</strong> = 311<br>
+<strong>K_MENU</strong> = 319<br>
+<strong>K_MINUS</strong> = 45<br>
+<strong>K_MODE</strong> = 313<br>
+<strong>K_NUMLOCK</strong> = 300<br>
+<strong>K_PAGEDOWN</strong> = 281<br>
+<strong>K_PAGEUP</strong> = 280<br>
+<strong>K_PAUSE</strong> = 19<br>
+<strong>K_PERIOD</strong> = 46<br>
+<strong>K_PLUS</strong> = 43<br>
+<strong>K_POWER</strong> = 320<br>
+<strong>K_PRINT</strong> = 316<br>
+<strong>K_QUESTION</strong> = 63<br>
+<strong>K_QUOTE</strong> = 39<br>
+<strong>K_QUOTEDBL</strong> = 34<br>
+<strong>K_RALT</strong> = 307<br>
+<strong>K_RCTRL</strong> = 305<br>
+<strong>K_RETURN</strong> = 13<br>
+<strong>K_RIGHT</strong> = 275<br>
+<strong>K_RIGHTBRACKET</strong> = 93<br>
+<strong>K_RIGHTPAREN</strong> = 41<br>
+<strong>K_RMETA</strong> = 309<br>
+<strong>K_RSHIFT</strong> = 303<br>
+<strong>K_RSUPER</strong> = 312<br>
+<strong>K_SCROLLOCK</strong> = 302<br>
+<strong>K_SEMICOLON</strong> = 59<br>
+<strong>K_SLASH</strong> = 47<br>
+<strong>K_SPACE</strong> = 32<br>
+<strong>K_SYSREQ</strong> = 317<br>
+<strong>K_TAB</strong> = 9<br>
+<strong>K_UNDERSCORE</strong> = 95<br>
+<strong>K_UNKNOWN</strong> = 0<br>
+<strong>K_UP</strong> = 273<br>
+<strong>K_a</strong> = 97<br>
+<strong>K_b</strong> = 98<br>
+<strong>K_c</strong> = 99<br>
+<strong>K_d</strong> = 100<br>
+<strong>K_e</strong> = 101<br>
+<strong>K_f</strong> = 102<br>
+<strong>K_g</strong> = 103<br>
+<strong>K_h</strong> = 104<br>
+<strong>K_i</strong> = 105<br>
+<strong>K_j</strong> = 106<br>
+<strong>K_k</strong> = 107<br>
+<strong>K_l</strong> = 108<br>
+<strong>K_m</strong> = 109<br>
+<strong>K_n</strong> = 110<br>
+<strong>K_o</strong> = 111<br>
+<strong>K_p</strong> = 112<br>
+<strong>K_q</strong> = 113<br>
+<strong>K_r</strong> = 114<br>
+<strong>K_s</strong> = 115<br>
+<strong>K_t</strong> = 116<br>
+<strong>K_u</strong> = 117<br>
+<strong>K_v</strong> = 118<br>
+<strong>K_w</strong> = 119<br>
+<strong>K_x</strong> = 120<br>
+<strong>K_y</strong> = 121<br>
+<strong>K_z</strong> = 122<br>
+<strong>LIL_ENDIAN</strong> = 1234<br>
+<strong>MOUSEBUTTONDOWN</strong> = 5<br>
+<strong>MOUSEBUTTONUP</strong> = 6<br>
+<strong>MOUSEMOTION</strong> = 4<br>
+<strong>NOEVENT</strong> = 0<br>
+<strong>NOFRAME</strong> = 32<br>
+<strong>NUMEVENTS</strong> = 32<br>
+<strong>OPENGL</strong> = 2<br>
+<strong>OPENGLBLIT</strong> = 10<br>
+<strong>PREALLOC</strong> = 16777216<br>
+<strong>QUIT</strong> = 12<br>
+<strong>RESIZABLE</strong> = 16<br>
+<strong>RLEACCEL</strong> = 16384<br>
+<strong>RLEACCELOK</strong> = 8192<br>
+<strong>SCRAP_BMP</strong> = 'image/bmp'<br>
+<strong>SCRAP_CLIPBOARD</strong> = 0<br>
+<strong>SCRAP_PBM</strong> = 'image/pbm'<br>
+<strong>SCRAP_PPM</strong> = 'image/ppm'<br>
+<strong>SCRAP_SELECTION</strong> = 1<br>
+<strong>SCRAP_TEXT</strong> = 'text/plain'<br>
+<strong>SRCALPHA</strong> = 65536<br>
+<strong>SRCCOLORKEY</strong> = 4096<br>
+<strong>SWSURFACE</strong> = 0<br>
+<strong>SYSWMEVENT</strong> = 13<br>
+<strong>TIMER_RESOLUTION</strong> = 10<br>
+<strong>USEREVENT</strong> = 24<br>
+<strong>UYVY_OVERLAY</strong> = 1498831189<br>
+<strong>VIDEOEXPOSE</strong> = 17<br>
+<strong>VIDEORESIZE</strong> = 16<br>
+<strong>YUY2_OVERLAY</strong> = 844715353<br>
+<strong>YV12_OVERLAY</strong> = 842094169<br>
+<strong>YVYU_OVERLAY</strong> = 1431918169<br>
+<strong>__version__</strong> = '1.9.0release-svn2555'<br>
+<strong>ver</strong> = '1.9.0release-svn2555'<br>
+<strong>vernum</strong> = (1, 9, 0)</td></tr></table>
+</body></html>

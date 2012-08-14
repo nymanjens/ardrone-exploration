@@ -1,0 +1,17 @@
+<launch>
+
+  <!-- rosrun image_transport republish compressed in:=/ardrone_video0 _image_transport:=compressed raw out:=/ardrone_video0/image -->
+  <node name="decoder" pkg="image_transport" type="republish" args="compressed in:=/ardrone_video0 _image_transport:=compressed raw out:=/ardrone_video0/image" />
+
+  <!-- shm_socket -->
+  <node name="shm_socket" pkg="shm_socket" type="shm_socket" />
+
+  <!-- hybriddata_creator -->
+  <node name="hybriddata_creator" pkg="controller" type="hybriddata.py" />
+
+  <!-- principalplane_server -->
+  <node name="principalplane_server" pkg="py_shared" type="principalplane.py" />
+  
+  <!-- points_visualizer -->
+  <node name="points_visualizer" pkg="analysis" type="visualize_points.py" />
+</launch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<PTAMM_Model_DB version="1.0">
+  <Category name="Category A" image="Cat_A/A.png">
+    <Model name="Cone" image="cone.png" dir="Cat_A/Cone" file="cone.3ds" roll="0" pitch="0" yaw="0" />
+    <Model name="Cube" image="cube.png" dir="Cat_A/Cube" file="cube.3ds" roll="0" pitch="0" yaw="0" />
+    <Model name="Sphere" image="sphere.png" dir="Cat_A/Sphere" file="sphere.3ds" roll="0" pitch="0" yaw="0" />
+    <Model name="Torus" image="torus.png" dir="Cat_A/Torus" file="torus.3ds" roll="0" pitch="0" yaw="0" />
+  </Category>
+  <Category name="Category B" image="Cat_B/B.png">
+  </Category>
+  <Category name="Category C" image="Cat_C/C.png">
+  </Category>
+  <Category name="Category D" image="Cat_D/D.png">
+  </Category>
+  <Category name="Category E" image="Cat_E/E.png">
+  </Category>
+</PTAMM_Model_DB>
+

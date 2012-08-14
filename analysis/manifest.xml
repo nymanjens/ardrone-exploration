@@ -1,0 +1,14 @@
+<package>
+  <description brief="analysis" />
+  <author>Jens Nyman</author>
+  <license>BSD</license>
+  <depend package="rospy"/>
+  <depend package="rosservice"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="py_shared"/>
+  <depend package="visualization_msgs"/>
+  <depend package="tf"/>
+</package>
+
+

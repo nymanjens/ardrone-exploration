@@ -1,0 +1,7 @@
+<package>
+  <description brief="py_shared" />
+  <author>Jens Nyman</author>
+  <license>BSD</license>
+  <depend package="rospy"/>
+</package>
+

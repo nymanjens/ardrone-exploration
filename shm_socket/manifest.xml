@@ -1,0 +1,12 @@
+<package>
+  <description brief="chm_socket" />
+  <author>Jens Nyman</author>
+  <license>BSD</license>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="py_shared"/>
+</package>
+
+
