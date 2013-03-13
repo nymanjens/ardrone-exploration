@@ -6,9 +6,13 @@ from simulator.plotter import *
 from simulator.points_generator import *
 import roslib; roslib.load_manifest('controller'); import rospy
 from utility import *
+from simulator.evaluator import Evaluator
+
+""" setup evaluator """
+evaluator = Evaluator("wmm")
 
 """ generate points """
-points = generate_points(1500)
+points = generate_points(evaluator.sigma)
 
 """ non-generated points """
 #from simulator.points_dataset_... import points
@@ -19,15 +23,19 @@ points = generate_points(1500)
 #from simulator.points_dataset_fish_robot_room import points
 
 """ detect room """
-#tic = time.time()
-#L = detect_room(points, do_preprocessing=False, numwalls=[4], numcalculations=5, fancy_output=True)
-#toc = time.time()
-#print "  done in ", (toc-tic), "s"
+#L = detect_room(points, do_preprocessing=False, numwalls=[4, 6, 8, 10], numcalculations=4, fancy_output=True)
+#L = detect_room(points, do_preprocessing=False, numwalls=[4, 6], numcalculations=2, fancy_output=True)
+L = detect_room(points, do_preprocessing=False, numwalls=[4], numcalculations=12, fancy_output=True)
+#L = detect_room(points, do_preprocessing=False, numwalls=[4], numcalculations=1, fancy_output=True)
+
+""" evaluate """
+evaluator.evaluate_lines(L, 'line', points)
 
 """ plot """
+ioff()
 plot_lines()
 plot_points(points)
-#plot_walls(L)
+plot_walls(L)
 show()
 
 """ print """

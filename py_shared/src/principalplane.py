@@ -43,10 +43,10 @@ class XYTransformation:
     
     def __init__(self, T = None):
         self.T = T if T else matrix(np.identity(4))
-        self.T = T if T else self.getMatrix(array([-400,0,1500]), array([ # TMP ad hoc
-            [1./3,1,0],
-            [0,0,1],
-        ]))
+        #self.T = T if T else self.getMatrix(array([-400,0,1500]), array([ # TMP ad hoc
+        #    [1./3,1,0],
+        #    [0,0,1],
+        #]))
     
     def updateFromPointCloud(self, points):
         """ update current state from new point cloud """

@@ -44,7 +44,7 @@ class PointParser:
         """ step 1: convert from PTAM to ROS axes """
         pt = array([
             pt[1] / self.slamScaleToMetricScale,
-            -pt[0] / self.slamScaleToMetricScale,
+            -1*   -pt[0] / self.slamScaleToMetricScale, ## TMP mirror around XY
             pt[2] / self.slamScaleToMetricScale,
         ])
         """ step 2: transform via principalplane """
@@ -154,6 +154,9 @@ class MapXmlParser:
         p.EndElementHandler = self.end_element
         p.CharacterDataHandler = self.char_data
         p.Parse(open(mapdir(self.room_num) + '/map.xml').read(), 1)
+        ### TMP remove bad keyframes
+        del self.keyframes['0']
+        del self.keyframes['1']
         """ sanity check """
         def unique(seq): 
            # order preserving
@@ -201,6 +204,9 @@ class MapXmlParser:
         pass
     
     def parseIsNecessary(self):
+        ## tmp
+        return True
+        
         mapfname = mapdir(self.room_num) + '/map.xml'
         backupfname = mapdir(self.room_num) + '/KeyFrames/undistorted_originals'
         cachefname = self.cachedFilePath()
@@ -230,6 +236,9 @@ class WallParser:
     def parse(self):
         strdata = open(mapdir(self.room_num)+'/walls').read()
         walls = decode_string_to_tuplearray(String(strdata))
+        ## TMP XZ mirror
+        walls = array(walls)
+        walls[:,:,1] *= -1
         # convert from mm to m
         walls = array(walls) / 1e3
         # apply scaling
@@ -245,7 +254,7 @@ class WallParser:
             M = .5*(E1 + E0)
             point_on_right = concave.point_inside_area(walls, M + n)
             if not point_on_right:
-                walls[i] = [E1, E0]
+                walls[i] = array([E1, E0])
         return array(walls)
 
 """ DoorParser """

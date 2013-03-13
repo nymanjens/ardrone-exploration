@@ -201,23 +201,23 @@ def plot_points(string):
     points_arr = [p for p in points_arr if norm(p) < 100e3]
 
     """ publish old, untransformed points """
-    #marker = get_marker('old_points', Marker.SPHERE_LIST)
-    #marker.pose.orientation.w = 1.0
-    ## POINTS markers use x and y scale for width/height respectively
-    #marker.scale.x = marker.scale.y = marker.scale.z = 50
-    ## Points are green
-    #marker.color.r = .2
-    #marker.color.g = .2
-    #marker.color.a = 1.0
-    ## Create the vertices for the points and lines
-    #for pt in points_arr:
-    #    p = Point()
-    #    p.x = pt[0]
-    #    p.y = pt[1]
-    #    p.z = pt[2]
-    #    marker.points.append(p)
-    ## publish
-    #publisher.publish(marker)
+    marker = get_marker('old_points', Marker.SPHERE_LIST)
+    marker.pose.orientation.w = 1.0
+    # POINTS markers use x and y scale for width/height respectively
+    marker.scale.x = marker.scale.y = marker.scale.z = 50
+    # Points are green
+    marker.color.r = .2
+    marker.color.g = .2
+    marker.color.a = 1.0
+    # Create the vertices for the points and lines
+    for pt in points_arr:
+        p = Point()
+        p.x = pt[0]
+        p.y = pt[1]
+        p.z = pt[2]
+        marker.points.append(p)
+    # publish
+    publisher.publish(marker)
 
     """ transform points """
     points_arr = principalplane.updateAndTransform(points_arr)

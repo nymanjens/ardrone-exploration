@@ -106,13 +106,17 @@ def EM_wall_mixture_model(points, K = 3, MAX_ITER = 30, init_from_gmm=True, forc
     """ calc probablility P[{Lk} | X] ~ P[X | {Lk}] * P[{Lk}] """
     totalLogProb = sum(log(pi_times_prob.sum(1)))
     logProbLk = 0
+    anglecounter = 0
     ## add prob of theta ~ N(pi/2, sigma_theta)
-    sigma_theta = .05 * pi/2
+    sigma_theta = .01 * pi/2
     for k, l in enumerate(L):
         lines = l.getAllConnectedLinesFrom(L[k+1:])
         for line in lines:
             theta = l.getAngleWith(line)
-            logProbLk += - (theta - pi/2)**2 / (2*sigma_theta**2)
+            dtheta = abs(theta - pi/2)
+            logProbLk += - dtheta**2 / (2*sigma_theta**2) - log(sqrt(2*pi)*sigma_theta)
+            anglecounter += 1
+    logProbLk /= anglecounter if anglecounter else 1
     ## in case of crossing: Prob = 0
     for k, l in enumerate(L):
         for line in (ll for kk, ll in enumerate(L) if k != kk):

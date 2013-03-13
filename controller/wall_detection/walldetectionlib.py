@@ -127,7 +127,7 @@ def detect_walls(points, do_preprocessing=True):
     return bestL
 
 """ detect room """
-def detect_room(points, do_preprocessing=False, numwalls=None, numcalculations=10, fancy_output=False):
+def detect_room(points, do_preprocessing=False, numwalls=None, numcalculations=4, fancy_output=False):
     """ detects room structures from walls """
     ## parse params
     global final_points, FANCY_OUTPUT; FANCY_OUTPUT = fancy_output
@@ -147,7 +147,8 @@ def detect_room(points, do_preprocessing=False, numwalls=None, numcalculations=1
     bestLogProb = float('-inf')
     for K in numwalls:
         executor = DuplicatedParallelExecution()
-        L, logProb = executor.execute(detect_room_one_iteration, [points, K], M=numcalculations)
+        ncalc = numcalculations if K < 8 else numcalculations*5
+        L, logProb = executor.execute(detect_room_one_iteration, [points, K], M=ncalc)
         print "  [K={0}] best: logProb={1}".format(K, logProb)
         if logProb > bestLogProb:
             bestLogProb = logProb
@@ -200,7 +201,7 @@ class DuplicatedParallelExecution:
         """ calculate minimum from returnvals """
         while not result_queue.empty():
             results.append(result_queue.get_nowait())
-        assert len(results) == M
+        #assert len(results) == M
         logProbs = array([x[1] for x in results])
         return results[logProbs.argmax()]
 
@@ -210,7 +211,7 @@ def detect_room_one_iteration(points, K, result_queue, cnt):
     L, logProb = EM_wall_mixture_model(points, K = K, MAX_ITER=10)
     # extra check: all lines connected with eachother
     if not Line.linesFormClosedShape(L):
-        logProb *= 2 # this is the same as sqrt(prob)
+        logProb *= 10
     if not FANCY_OUTPUT:
         print "    (K={0}) score={2:.1f} logProb={1}".format(K, logProb, -logProb/1e4)
     result_queue.put([L, logProb])

@@ -41,12 +41,36 @@ def generate_points(sigma, points_per_meter=20):
     seed(int(1e3*time.time()  % 1e6))
     return array(points)
 
+
+def generate_noiseless_points(points_per_meter=250):
+    # init
+    points = []
+    # generate points for each segment
+    for A, B in lines:
+        L = norm(B-A) # L is in mm
+        N = round(points_per_meter * L/1e3)
+        Delta = 1./N
+        
+        """ get ideal placment of points """
+        t = arange(Delta/2, 1, Delta)
+        
+        """ transform 1D t-values to xy values """
+        p = array([tt*A + (1-tt)*B for tt in t])
+        
+        """ save points """
+        points += p.tolist()
+    
+    return array(points)
+
 if __name__ == '__main__':
-    points = generate_points(50)
+    #points = generate_points(50)
+    points = generate_noiseless_points(20)
     
     from plotter import *
     from pylab import *
     plot_lines()
-#    plot_points(points)
+    plot_points(points)
     show()
     
+
+

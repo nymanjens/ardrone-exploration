@@ -4,6 +4,7 @@
 from math import pi, sin, cos
 from numpy import array
 from numpy.linalg import norm
+import time
 # ROS imports
 import roslib; roslib.load_manifest('controller'); import rospy
 from std_msgs.msg import String
@@ -71,6 +72,7 @@ class CycleAction:
         elif 0 < self.anglediff(psi, self.angle) < pi/3:
             self.angle = self.angle + pi/2
             print "  [ExploringController] cycling action: angle={}".format(self.angle)
+            time.sleep(1)
         else:
             return False
         target = (self.pos, self.angle)

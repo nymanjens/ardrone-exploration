@@ -18,14 +18,12 @@
 #define SHM_OBJ_MARGIN  256
 
 // video settings
-//#define VID0_WIDTH      320 // 1/2 VGA (camera's on AR.Drone)
-//#define VID0_HEIGHT     240
+#define VID0_WIDTH      320 // 1/2 VGA (camera's on AR.Drone)
+#define VID0_HEIGHT     240
 //#define VID0_WIDTH      640 // VGA (axis fisheye camera)
 //#define VID0_HEIGHT     480
-//#define VID0_WIDTH      1280 // underwater-camera Tim
-//#define VID0_HEIGHT     720
-#define VID0_WIDTH      848 // underwater-camera Tim
-#define VID0_HEIGHT     480
+//#define VID0_WIDTH      848 // underwater-camera Tim
+//#define VID0_HEIGHT     480
 #define VID1_WIDTH      176
 #define VID1_HEIGHT     144
 

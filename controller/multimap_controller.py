@@ -54,7 +54,7 @@ def wallviz_ready_signal(map_id):
     ### WALL DETECTION ###
     print " * Detecting walls ..."
     # apply wall detection
-    L = detect_room(LastPoints.points, do_preprocessing=True, numwalls=[4], numcalculations=12, fancy_output=True)
+    L = detect_room(LastPoints.points, do_preprocessing=True, numwalls=[4], numcalculations=6, fancy_output=True)
     # get walls list
     walls = [ l.E() for l in L ]
     # convert walls to string, publish and save

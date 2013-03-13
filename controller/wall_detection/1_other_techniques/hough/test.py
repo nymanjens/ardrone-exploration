@@ -5,10 +5,13 @@ sys.path.append('..')
 from simulator.plotter import *
 from simulator.points_generator import *
 import hough
+from simulator.evaluator import Evaluator
+
+""" setup evaluator """
+evaluator = Evaluator("hough", detected_walls="N/A")
 
 """ generate points """
-points = generate_points(1000)
-print "  generated {} points".format(len(points))
+points = generate_points(evaluator.sigma)
 
 """ non-generated points """
 #sys.path.append('../..')
@@ -17,8 +20,8 @@ print "  generated {} points".format(len(points))
 #points = outlierfilterlib.filter_outliers(points)
 
 """ hough transform """
-rhos, thetas, hgrid = hough.hough_transform(points)
-print "  hough transform complete"
+rhos, thetas, hgrid = hough.hough_transform(points, n_theta=460, n_rho=360)
+#print "  hough transform complete"
 
 """ get lines from hough transform (matlab) """
 MATLAB_HOUGH_FILE = 'matlab_io/input_hough.mat'
@@ -29,7 +32,8 @@ if os.path.isfile(MATLAB_HOUGH_FILE):
     data = loadmat(MATLAB_HOUGH_FILE)
     if data['H'].shape == hgrid.T.shape and (data['H'] == hgrid.T).all():
         skip_matlab = True
-if not skip_matlab:
+#if not skip_matlab:
+if True:
     # create input file
     savemat(MATLAB_HOUGH_FILE, {'H': hgrid.T})
     # run script
@@ -38,7 +42,7 @@ if not skip_matlab:
     subprocess.call(command_line, shell=True, close_fds=True)
 # read output file
 peaks = loadmat(MATLAB_PEAKS_FILE)['P']
-print len(peaks), 'lines detected'
+evaluator.toc()
 
 """ convert from matlab to python """
 for i, (rho_i, theta_i) in enumerate(peaks):
@@ -56,6 +60,9 @@ for p in peaks:
     peaks_theta_rho.append([theta, rho])
     lines.append([a,b,c])
 
+""" evaluate """
+evaluator.evaluate_lines(lines, 'abc', points)
+
 """ hough plot """
 ## plot 1: points space
 plot_lines()
@@ -63,6 +70,7 @@ plot_points(points)
 for l in lines:
     plot_abc_line(l, points)
 show()
+
 ## plot 2: parameter space
 #plot_hough(thetas, rhos, hgrid, peaks=peaks)
 #plot_hough(thetas, rhos, hgrid)

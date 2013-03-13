@@ -471,7 +471,7 @@ namespace PTAMM {
         shm::shared_data* shdata = shm::shared_data::get_or_create();
         double measuredAltitude = shdata->nav.altitude;
         if (measuredAltitude < 0.1)
-            measuredAltitude = 1400; // mm
+            measuredAltitude = 400; // mm
         double h = pkSecond->se3CfromW.inverse().get_translation()[2];
         mpMap->mdSLAMScaleToMetricScale =  h / measuredAltitude;
         cout << "  [MEASURED ALTITUDE = " << measuredAltitude << " mm]" << endl;
