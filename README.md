@@ -1,7 +1,7 @@
 ardrone-exploration
 ===================
 
-The source code used for a research project titled: *"Designing an Autonomous Exploration Architecture for an Indoor Quadcopter"*.
+The source code used for a research project titled: *"Designing an Autonomous Exploration Architecture for an Indoor Quadcopter"*. [Download the thesis about this project here](https://github.com/nymanjens/ardrone-exploration/blob/master/thesis.pdf?raw=true).
 
 ### Demo movies:
 
